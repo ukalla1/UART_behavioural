@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"uart_rx_ex_tb_func_synth.v" \
+"../../../../../UART_behavioural.srcs/sim_1/new/uart_rx_ex_tb.v" \
+
+# Do not sort compile order
+nosort

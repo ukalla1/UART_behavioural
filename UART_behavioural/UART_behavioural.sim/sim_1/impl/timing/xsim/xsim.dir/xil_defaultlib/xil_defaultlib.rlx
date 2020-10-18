@@ -1,0 +1,7 @@
+0.6
+2018.3
+Dec  6 2018
+23:39:36
+/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.sim/sim_1/impl/timing/xsim/uart_rx_ex_tb_time_impl.v,1602733377,verilog,,/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sim_1/new/uart_rx_ex_tb.v,,glbl;uart_rxm_ex,,,,,,,,
+/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sim_1/new/uart_rx_ex_tb.v,1602732959,verilog,,,,uart_rx_ex_tb,,,,,,,,
+/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sim_1/new/uart_rx_wrapper_tb.v,1602724164,verilog,,,,uart_rx_wrapper_tb,,,,,,,,
