@@ -1,74 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1603041913">
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="BG-DRC" Name="ram_dp__sim_par.drc"/>
-  <File Type="BG-BGN" Name="ram_dp__sim_par.bgn"/>
-  <File Type="BITSTR-SYSDEF" Name="ram_dp__sim_par.sysdef"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="ram_dp__sim_par.ltx"/>
-  <File Type="BITSTR-MMI" Name="ram_dp__sim_par.mmi"/>
-  <File Type="BITSTR-BMM" Name="ram_dp__sim_par_bd.bmm"/>
-  <File Type="BITSTR-NKY" Name="ram_dp__sim_par.nky"/>
-  <File Type="BITSTR-RBT" Name="ram_dp__sim_par.rbt"/>
-  <File Type="BITSTR-MSK" Name="ram_dp__sim_par.msk"/>
-  <File Type="BG-BIN" Name="ram_dp__sim_par.bin"/>
-  <File Type="BG-BIT" Name="ram_dp__sim_par.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="ram_dp__sim_par_bus_skew_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="ram_dp__sim_par_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="ram_dp__sim_par_bus_skew_postroute_physopted.rpt"/>
-  <File Type="RDI-RDI" Name="ram_dp__sim_par.vdi"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ram_dp__sim_par_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ram_dp__sim_par_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ram_dp__sim_par_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ram_dp__sim_par_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="ram_dp__sim_par_postroute_physopt.dcp"/>
-  <File Type="ROUTE-BUS-SKEW" Name="ram_dp__sim_par_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="ram_dp__sim_par_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-SIMILARITY" Name="ram_dp__sim_par_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-TIMING-RPX" Name="ram_dp__sim_par_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-TIMING-PB" Name="ram_dp__sim_par_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="ram_dp__sim_par_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="ram_dp__sim_par_route_status.pb"/>
-  <File Type="ROUTE-STATUS" Name="ram_dp__sim_par_route_status.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="ram_dp__sim_par_power_routed.rpx"/>
-  <File Type="ROUTE-PWR-SUM" Name="ram_dp__sim_par_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="ram_dp__sim_par_power_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ram_dp__sim_par_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ram_dp__sim_par_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="ram_dp__sim_par_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-RPX" Name="ram_dp__sim_par_drc_routed.rpx"/>
-  <File Type="ROUTE-DRC-PB" Name="ram_dp__sim_par_drc_routed.pb"/>
-  <File Type="ROUTE-DRC" Name="ram_dp__sim_par_drc_routed.rpt"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="ram_dp__sim_par_routed_bb.dcp"/>
-  <File Type="ROUTE-DCP" Name="ram_dp__sim_par_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="ram_dp__sim_par_routed_error.dcp"/>
-  <File Type="PHYSOPT-TIMING" Name="ram_dp__sim_par_timing_summary_physopted.rpt"/>
-  <File Type="PHYSOPT-DRC" Name="ram_dp__sim_par_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="ram_dp__sim_par_physopt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="ram_dp__sim_par_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ram_dp__sim_par_postroute_physopt_bb.dcp"/>
+  <File Type="RDI-RDI" Name="ram_dp__sim_par.vdi"/>
+  <File Type="BITSTR-LTX" Name="ram_dp__sim_par.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="ram_dp__sim_par.sysdef"/>
+  <File Type="BG-BGN" Name="ram_dp__sim_par.bgn"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="ram_dp__sim_par_postplace_pwropt.dcp"/>
-  <File Type="PLACE-TIMING" Name="ram_dp__sim_par_timing_summary_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="ram_dp__sim_par_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="ram_dp__sim_par_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-CTRL" Name="ram_dp__sim_par_control_sets_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="ram_dp__sim_par_utilization_placed.pb"/>
-  <File Type="PLACE-UTIL" Name="ram_dp__sim_par_utilization_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="ram_dp__sim_par_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-IO" Name="ram_dp__sim_par_io_placed.rpt"/>
   <File Type="PLACE-DCP" Name="ram_dp__sim_par_placed.dcp"/>
-  <File Type="PWROPT-TIMING" Name="ram_dp__sim_par_timing_summary_pwropted.rpt"/>
-  <File Type="PWROPT-DRC" Name="ram_dp__sim_par_drc_pwropted.rpt"/>
   <File Type="PWROPT-DCP" Name="ram_dp__sim_par_pwropt.dcp"/>
-  <File Type="OPT-TIMING" Name="ram_dp__sim_par_timing_summary_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="ram_dp__sim_par.hwdef"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="ram_dp__sim_par_methodology_drc_opted.rpt"/>
-  <File Type="OPT-DRC" Name="ram_dp__sim_par_drc_opted.rpt"/>
-  <File Type="OPT-DCP" Name="ram_dp__sim_par_opt.dcp"/>
-  <File Type="INIT-TIMING" Name="ram_dp__sim_par_timing_summary_init.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="ram_dp__sim_par_bus_skew_routed.rpx"/>
-  <File Type="REPORTS-TCL" Name="ram_dp__sim_par_reports.tcl"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="ram_dp__sim_par_bus_skew_routed.pb"/>
   <File Type="PA-TCL" Name="ram_dp__sim_par.tcl"/>
+  <File Type="BITSTR-MSK" Name="ram_dp__sim_par.msk"/>
+  <File Type="ROUTE-TIMING-PB" Name="ram_dp__sim_par_timing_summary_routed.pb"/>
+  <File Type="PHYSOPT-DCP" Name="ram_dp__sim_par_physopt.dcp"/>
+  <File Type="BITSTR-RBT" Name="ram_dp__sim_par.rbt"/>
+  <File Type="REPORTS-TCL" Name="ram_dp__sim_par_reports.tcl"/>
+  <File Type="OPT-DCP" Name="ram_dp__sim_par_opt.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ram_dp__sim_par_routed_error.dcp"/>
+  <File Type="BG-DRC" Name="ram_dp__sim_par.drc"/>
+  <File Type="ROUTE-DCP" Name="ram_dp__sim_par_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ram_dp__sim_par_routed_bb.dcp"/>
+  <File Type="BG-BIT" Name="ram_dp__sim_par.bit"/>
+  <File Type="BG-BIN" Name="ram_dp__sim_par.bin"/>
+  <File Type="BITSTR-NKY" Name="ram_dp__sim_par.nky"/>
+  <File Type="BITSTR-BMM" Name="ram_dp__sim_par_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="ram_dp__sim_par.mmi"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/ram_dp__sim_par.v">

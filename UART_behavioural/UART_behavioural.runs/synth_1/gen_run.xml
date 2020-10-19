@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1603041913">
-  <File Type="VDS-TIMING-PB" Name="ram_dp__sim_par_timing_summary_synth.pb"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="ram_dp__sim_par_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="ram_dp__sim_par.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="ram_dp__sim_par_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="ram_dp__sim_par_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="ram_dp__sim_par_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="ram_dp__sim_par.vds"/>
   <File Type="REPORTS-TCL" Name="ram_dp__sim_par_reports.tcl"/>
   <File Type="PA-TCL" Name="ram_dp__sim_par.tcl"/>
+  <File Type="RDS-DCP" Name="ram_dp__sim_par.dcp"/>
+  <File Type="RDS-RDS" Name="ram_dp__sim_par.vds"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/ram_dp__sim_par.v">

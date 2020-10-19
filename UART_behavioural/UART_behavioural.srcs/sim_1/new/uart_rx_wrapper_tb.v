@@ -82,14 +82,6 @@ module uart_rx_wrapper_tb#(
             #(SAMPLECOUNTMAX*period);
         end
         
-//        rx_serial_data = 1'b0;
-        
-//        #(SAMPLECOUNTMAX*period);
-        
-//        rx_serial_data = 1'b1;
-        
-//        #(SAMPLECOUNTMAX*period);
-        
         rx_serial_data = 1'b1;
         
         #(10000*period);

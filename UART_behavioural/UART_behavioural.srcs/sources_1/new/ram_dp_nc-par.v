@@ -24,7 +24,7 @@ module ram_dp_nc_par #(
     parameter DATA_WIDTH = 8,
     parameter RAM_DEPTH = 32,
     parameter INIT_FILE = "",
-    localparam ADDRS_WIDTH = clogb2(RAM_DEPTH-1)
+    parameter ADDRS_WIDTH = clogb2(RAM_DEPTH-1)
 )(
     input clk,
     input wea,

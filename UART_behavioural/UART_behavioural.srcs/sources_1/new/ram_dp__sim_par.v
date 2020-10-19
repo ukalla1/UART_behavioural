@@ -24,7 +24,7 @@ module ram_dp__sim_par #(
     parameter DATA_WIDTH = 8,
     parameter RAM_DEPTH = 32,
     parameter INIT_FILE = "",
-    localparam ADDRS_WIDTH = clogb2(RAM_DEPTH-1)
+    parameter ADDRS_WIDTH = clogb2(RAM_DEPTH-1)
 )(
     input clk,
     input wea,
@@ -66,11 +66,11 @@ module ram_dp__sim_par #(
     
     assign doutb = doutb_internal;
     
-    function integer clogb2;
-        input integer depth;
-        for (clogb2=0; depth>0; clogb2=clogb2+1) begin
-            depth = depth >> 1;
-        end
-    endfunction
+//    function integer clogb2;
+//        input integer depth;
+//        for (clogb2=0; depth>0; clogb2=clogb2+1) begin
+//            depth = depth >> 1;
+//        end
+//    endfunction
     
 endmodule

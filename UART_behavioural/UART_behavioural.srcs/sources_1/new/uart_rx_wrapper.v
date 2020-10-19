@@ -29,10 +29,10 @@ module uart_rx_wrapper  #(
     input rst,
     input rx_serial_data,
     output [DATAWIDTH-1:0] o_rx_parallel_data,
+    output ram_en,
     output reg [6:0] disp,
     output reg o_flag_err,
     output reg o_rx_ready,
-//    output reg [DATAWIDTH:0] tmp,
     output reg [7:0] an
     );
     
@@ -54,6 +54,7 @@ module uart_rx_wrapper  #(
         .clk(clk),
         .rst(rst),
         .rx_serial_data(rx_serial_data),
+        .ram_en(ram_en),
         .rx_parallel_data(rx_parallel_data),
         .flag_err(flag_err),
         .rx_ready(rx_ready)
@@ -90,10 +91,6 @@ module uart_rx_wrapper  #(
         an[7:2] <= 6'b111_111;
         
         case({an_i0,an_i1})
-//            2'b00: begin
-//            end
-//            2'b01: begin
-//            end
             2'b10: begin
                 an[0] <= 1'b1;
                 an[1] <= 1'b0;
