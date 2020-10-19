@@ -66,6 +66,8 @@ module ram_dp__sim_par #(
     
     assign doutb = doutb_internal;
     
+    
+    ////////////////////////////Copy and paste this function in the module that instantiates the RAM, so that the parameter address width can be passed to the RAM.////////////////////////////
 //    function integer clogb2;
 //        input integer depth;
 //        for (clogb2=0; depth>0; clogb2=clogb2+1) begin

@@ -1,0 +1,1504 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 3791
+License: Customer
+
+Current time: 	Mon Oct 19 08:01:23 EDT 2020
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Ubuntu
+OS Version: 5.4.0-51-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 111 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/tools/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4
+Java executable location: 	/tools/Xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	root
+User home directory: /root
+User working directory: /home/ukallakuri/hardware_design/designs/uart
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2018.3
+RDI_DATADIR: /tools/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: /root/.Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: /root/.Xilinx/Vivado/2018.3/
+Vivado layouts directory: /root/.Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	/tools/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	/home/ukallakuri/hardware_design/designs/uart/vivado.log
+Vivado journal file location: 	/home/ukallakuri/hardware_design/designs/uart/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-3791-ukallakuri-Lenovo-YOGA-910-13IKB
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /tools/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2018.3
+XILINX_SDK: /tools/Xilinx/SDK/2018.3
+XILINX_VIVADO: /tools/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	197 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 834 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.xpr", 0); // q (Q, cp)
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 810 MB. GUI used memory: 45 MB. Current time: 10/19/20, 8:01:25 AM EDT
+// Tcl Message: open_project /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 83 MB (+84661kb) [00:00:13]
+// [Engine Memory]: 863 MB (+753621kb) [00:00:13]
+// [GUI Memory]: 97 MB (+10296kb) [00:00:13]
+// WARNING: HEventQueue.dispatchEvent() is taking  2408 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2018.3/data/ip'. 
+// [GUI Memory]: 105 MB (+3079kb) [00:00:15]
+// Project name: UART_behavioural; location: /home/ukallakuri/hardware_design/designs/uart/UART_behavioural; part: xc7a100tcsg324-1
+// [Engine Memory]: 937 MB (+32047kb) [00:00:16]
+dismissDialog("Open Project"); // bx (cp)
+// [Engine Memory]: 1,002 MB (+18780kb) [00:00:18]
+// PAPropertyPanels.initPanels (ram_top.v) elapsed time: 0.2s
+// Elapsed time: 280 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_top (ram_top.v)]", 2, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_top (ram_top.v)]", 2, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// [GUI Memory]: 111 MB (+397kb) [00:04:57]
+// HMemoryUtils.trashcanNow. Engine heap size: 986 MB. GUI used memory: 54 MB. Current time: 10/19/20, 8:06:15 AM EDT
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Manch_Enc_clk2_clk1 (Manch_Enc_clk2_clk1.v)]", 5, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RX_Enable (Rx_Enable.v)]", 6, false); // B (D, cp)
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Manch_Enc_clk2_clk1 (Manch_Enc_clk2_clk1.v)]", 5, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Manch_Enc_clk2_clk1 (Manch_Enc_clk2_clk1.v)]", 5, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RX_Enable (Rx_Enable.v)]", 6, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RX_Enable (Rx_Enable.v)]", 6, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, manch_decoder (Manch_decoder.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, manch_decoder (Manch_decoder.v)]", 7, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 54 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Manch_Enc_clk2_clk1 (Manch_Enc_clk2_clk1.v)]", 5, false); // B (D, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_top.v", 1); // k (j, cp)
+selectCodeEditor("ram_top.v", 202, 387); // cl (w, cp)
+selectCodeEditor("ram_top.v", 142, 369); // cl (w, cp)
+selectCodeEditor("ram_top.v", 142, 369, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 38 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 2); // k (j, cp)
+// Elapsed time: 50 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 4); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 4); // k (j, cp)
+// Elapsed time: 38 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_top.v", 1); // k (j, cp)
+selectCodeEditor("ram_top.v", 213, 508); // cl (w, cp)
+// Elapsed time: 37 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, cp) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 15 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "ram_manchEnc_tx"); // Y (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 19 seconds
+dismissDialog("Add Sources"); // c (cp)
+// Tcl Message: close [ open /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_manchEnc_tx.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_manchEnc_tx.v 
+// I (cp): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Define Module"); // I (cp)
+// [Engine Memory]: 1,059 MB (+7089kb) [00:10:14]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,064 MB. GUI used memory: 56 MB. Current time: 10/19/20, 8:11:30 AM EDT
+// Elapsed time: 61 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 2); // k (j, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 142, 323); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 204, 321); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 4); // k (j, cp)
+// Elapsed time: 33 seconds
+selectCodeEditor("Manch_decoder.v", 205, 384); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 236, 386); // cl (w, cp)
+// Elapsed time: 33 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_manchEnc_tx (ram_manchEnc_tx.v)]", 9, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_manchEnc_tx (ram_manchEnc_tx.v)]", 9, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_top.v", 1); // k (j, cp)
+selectCodeEditor("ram_top.v", 342, 272); // cl (w, cp)
+selectCodeEditor("ram_top.v", 218, 249, false, false, false, true, false); // cl (w, cp) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // af (al, cp)
+selectCodeEditor("ram_top.v", 426, 257); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 261, 347); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 157, 338); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_top.v", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 471, 400); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 441, 416); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 2); // k (j, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 137, 260); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 170, 265); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 476, 377); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_top.v", 1); // k (j, cp)
+selectCodeEditor("ram_top.v", 264, 400); // cl (w, cp)
+typeControlKey((HResource) null, "ram_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_top.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_top.v", 318, 391); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 305, 444); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 99, 444); // cl (w, cp)
+// Elapsed time: 16 seconds
+selectCodeEditor("ram_manchEnc_tx.v", 254, 531); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 2); // k (j, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 124, 373); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 124, 373, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 193, 367); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 2); // k (j, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 125, 320); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 128, 319); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 147, 322); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 340, 545); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_top.v", 1); // k (j, cp)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 2); // k (j, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 80, 359); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 80, 359, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_top.v", 1); // k (j, cp)
+selectCodeEditor("ram_top.v", 270, 293); // cl (w, cp)
+selectCodeEditor("ram_top.v", 68, 285, false, false, false, true, false); // cl (w, cp) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // af (al, cp)
+selectCodeEditor("ram_top.v", 299, 301); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 220, 612); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 218, 623); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 336, 654); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("ram_manchEnc_tx.v", 113, 468); // cl (w, cp)
+// Elapsed time: 148 seconds
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_top.v", 1); // k (j, cp)
+selectCodeEditor("ram_top.v", 80, 529); // cl (w, cp)
+selectCodeEditor("ram_top.v", 497, 517); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+// Elapsed time: 14 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_top (ram_top.v), mem1 : ram_dp__sim_par (ram_dp__sim_par.v)]", 3, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_top (ram_top.v), mem1 : ram_dp__sim_par (ram_dp__sim_par.v)]", 3, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("ram_dp__sim_par.v", 222, 492); // cl (w, cp)
+selectCodeEditor("ram_dp__sim_par.v", 222, 492, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_top.v", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 189, 686); // cl (w, cp)
+// Elapsed time: 46 seconds
+selectCodeEditor("ram_manchEnc_tx.v", 363, 465); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_top.v", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_dp__sim_par.v", 6); // k (j, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("ram_dp__sim_par.v", 418, 588); // cl (w, cp)
+// Elapsed time: 51 seconds
+typeControlKey((HResource) null, "ram_dp__sim_par.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_dp__sim_par.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_dp__sim_par.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_dp__sim_par.v", 'v'); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,094 MB. GUI used memory: 57 MB. Current time: 10/19/20, 8:23:00 AM EDT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 183, 53); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_dp__sim_par.v", 6); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 331, 406); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 316, 484); // cl (w, cp)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_top.v", 1); // k (j, cp)
+selectCodeEditor("ram_top.v", 252, 337); // cl (w, cp)
+typeControlKey((HResource) null, "ram_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_top.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_top.v", 280, 339); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_dp__sim_par.v", 6); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 163, 513); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 294, 559); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 254, 590); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 254, 586); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 256, 580); // cl (w, cp)
+// Elapsed time: 44 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 2); // k (j, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 126, 336); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 126, 336, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 211, 336); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+// Elapsed time: 26 seconds
+selectCodeEditor("ram_manchEnc_tx.v", 94, 234); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 94, 234, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 87, 638); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 93, 253); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 93, 253, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 104, 650); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("ram_manchEnc_tx.v", 111, 277); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 111, 277, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 131, 681); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 2); // k (j, cp)
+// Elapsed time: 44 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 138, 232); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 138, 232, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 16 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 475, 451); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 130, 278); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 130, 278); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 130, 278, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 100, 685); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+// Elapsed time: 57 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 4); // k (j, cp)
+selectCodeEditor("Manch_decoder.v", 234, 269); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 234, 269, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("Manch_decoder.v", 177, 98); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 177, 98, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("Manch_decoder.v", 136, 476); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 136, 476, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("Manch_decoder.v", 326, 342); // cl (w, cp)
+// [GUI Memory]: 116 MB (+103kb) [00:26:54]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 718, 613); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_top (ram_top.v)]", 3); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_manchEnc_tx (ram_manchEnc_tx.v)]", 2); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_manchEnc_tx (ram_manchEnc_tx.v)]", 2); // B (D, cp)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_dp__sim_par.v", 6); // k (j, cp)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 5); // k (j, cp)
+// Elapsed time: 23 seconds
+selectCodeEditor("Manch_decoder.v", 182, 200); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 182, 200, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("Manch_decoder.v", 346, 531); // cl (w, cp)
+// Elapsed time: 71 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, cp) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// [Engine Memory]: 1,112 MB (+44kb) [00:29:34]
+// Elapsed time: 13 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "ram_manchEnc_rx"); // Y (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 16 seconds
+dismissDialog("Add Sources"); // c (cp)
+// Tcl Message: close [ open /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_manchEnc_rx.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_manchEnc_rx.v 
+// I (cp): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Define Module"); // I (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,128 MB. GUI used memory: 57 MB. Current time: 10/19/20, 8:31:05 AM EDT
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_manchEnc_rx (ram_manchEnc_rx.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_manchEnc_rx (ram_manchEnc_rx.v)]", 7, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // g (Q, aE): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_manchEnc_rx.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_manchEnc_rx.v 
+// Tcl Message: file delete -force /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_manchEnc_rx.v 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 75, 340); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 75, 340, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 211, 333); // cl (w, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, cp) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "ram_manchDec_tx"); // Y (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 10 seconds
+dismissDialog("Add Sources"); // c (cp)
+// Tcl Message: close [ open /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_manchDec_tx.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_manchDec_tx.v 
+// I (cp): Define Module: addNotify
+// Elapsed time: 10 seconds
+setText(PAResourceAtoD.DefineModulesDialog_ENTITY_NAME, "ram_manchDec_rx"); // Y (Q, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (C, J)
+dismissDialog("Define Module"); // I (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,161 MB. GUI used memory: 58 MB. Current time: 10/19/20, 8:31:50 AM EDT
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_manchDec_rx (ram_manchDec_tx.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_manchDec_rx (ram_manchDec_tx.v)]", 7, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("ram_manchDec_tx.v", 154, 354); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 389, 421); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 224, 487); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 336, 415); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 308, 381, false, false, false, true, false); // cl (w, cp) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // af (al, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 460, 393); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_tx.v", 7); // k (j, cp)
+selectCodeEditor("ram_manchDec_tx.v", 155, 337); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_tx.v", 'v'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 5); // k (j, cp)
+selectCodeEditor("Manch_decoder.v", 385, 339); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 408, 342); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 334, 334); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 403, 343); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_tx.v", 7); // k (j, cp)
+selectCodeEditor("ram_manchDec_tx.v", 276, 54); // cl (w, cp)
+selectCodeEditor("ram_manchDec_tx.v", 273, 336); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_tx.v", 'v'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 5); // k (j, cp)
+selectCodeEditor("Manch_decoder.v", 295, 326); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 303, 321); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 302, 320); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_tx.v", 7); // k (j, cp)
+selectCodeEditor("ram_manchDec_tx.v", 366, 331); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_tx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_tx.v", 508, 477); // cl (w, cp)
+selectCodeEditor("ram_manchDec_tx.v", 512, 457); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 5); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_tx.v", 7); // k (j, cp)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_tx.v", 7, true, false); // k (j, cp) - Popup Trigger
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_tx.v", 7); // k (j, cp)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_tx.v", 7, false, true); // k (j, cp) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (aF, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_tx.v", 7); // k (j, cp)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_tx.v", 7, false, true); // k (j, cp) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (aF, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_tx.v", 7); // k (j, cp)
+selectCodeEditor("ram_manchDec_tx.v", 1222, 123); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,178 MB (+10975kb) [00:31:56]
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 112 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_manchDec_rx (ram_manchDec_tx.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_manchDec_rx (ram_manchDec_tx.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_manchDec_rx (ram_manchDec_tx.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_manchDec_rx (ram_manchDec_tx.v)]", 7, false, false, false, false, false, true); // B (D, cp) - Double Click
+// ad (cp): Unable to Open File: addNotify
+selectButton(PAResourceOtoP.OpenFileAction_OPEN_DIRECTORY, "Open Directory"); // a (ad)
+dismissDialog("Unable to Open File"); // ad (cp)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, cp) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,184 MB. GUI used memory: 67 MB. Current time: 10/19/20, 8:35:30 AM EDT
+setFileChooser("/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_manchDec_rx.v");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 14 seconds
+dismissDialog("Add Sources"); // c (cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_manchDec_rx.v 
+// [GUI Memory]: 124 MB (+1604kb) [00:34:26]
+selectCodeEditor("ram_manchDec_tx.v", 228, 483); // cl (w, cp)
+selectCodeEditor("ram_manchDec_tx.v", 154, 498); // cl (w, cp)
+selectCodeEditor("ram_manchDec_tx.v", 211, 543); // cl (w, cp)
+selectCodeEditor("ram_manchDec_tx.v", 131, 485); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_tx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_tx.v", 413, 518); // cl (w, cp)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_manchDec_rx (ram_manchDec_rx.v)]", 8, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_manchDec_rx (ram_manchDec_rx.v)]", 8, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("ram_manchDec_rx.v", 306, 452); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 213, 490); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 202, 456); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 202, 486); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 200, 465); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 311, 451); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 274, 487); // cl (w, cp)
+// Elapsed time: 26 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_manchEnc_tx (ram_manchEnc_tx.v)]", 3); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ram_manchEnc_tx (ram_manchEnc_tx.v)]", 3); // B (D, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 5); // k (j, cp)
+selectCodeEditor("Manch_decoder.v", 232, 411); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 303, 413); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 179, 455); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 101, 454); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 84, 457); // cl (w, cp)
+// Elapsed time: 37 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 249, 505); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 260, 503); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 99, 504); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 155, 507); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 118, 520); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 344, 547); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 35, 546); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 35, 546, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ram_manchDec_rx.v", 236, 542); // cl (w, cp)
+// Elapsed time: 48 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_top.v", 2); // k (j, cp)
+selectCodeEditor("ram_top.v", 139, 703); // cl (w, cp)
+typeControlKey((HResource) null, "ram_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_top.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_top.v", 290, 681); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 144, 697); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 138, 723); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 135, 706); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,218 MB. GUI used memory: 60 MB. Current time: 10/19/20, 8:39:25 AM EDT
+selectCodeEditor("ram_manchDec_rx.v", 132, 422); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 132, 422, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 64, 626); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+typeControlKey(null, null, 'z');
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 176, 729); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 149, 735); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 75, 656); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("ram_manchDec_rx.v", 293, 620); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 1104, 643); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 90, 595); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 305, 500); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+selectCodeEditor("ram_manchDec_rx.v", 274, 620); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 76, 530); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 282, 368); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 5); // k (j, cp)
+selectCodeEditor("Manch_decoder.v", 98, 312); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 98, 312, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 228, 391); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 56, 115); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+// [Engine Memory]: 1,251 MB (+14700kb) [00:39:58]
+selectCodeEditor("ram_manchDec_rx.v", 59, 475); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,251 MB. GUI used memory: 60 MB. Current time: 10/19/20, 8:41:15 AM EDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("ram_manchDec_rx.v", 182, 463); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 242, 394); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 151, 99); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 151, 99, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 191, 398); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 173, 123); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 173, 123, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ram_manchDec_rx.v", 177, 114); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 177, 114, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 129, 424); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+// Elapsed time: 25 seconds
+selectCodeEditor("ram_manchDec_rx.v", 149, 236); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 149, 236, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 146, 489); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 5); // k (j, cp)
+selectCodeEditor("Manch_decoder.v", 179, 418); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 179, 418); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 179, 418, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 999, 295); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 113, 340); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 113, 340, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 98, 505); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 287, 508); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 273, 540); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 121, 406); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 92, 450); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 62, 395); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 470, 359); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+selectCodeEditor("ram_manchDec_rx.v", 75, 574); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 153, 325); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 153, 323, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 111, 514); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 111, 514, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 227, 113); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 227, 113, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 141, 531); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 141, 531, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 196, 265); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,283 MB. GUI used memory: 60 MB. Current time: 10/19/20, 8:43:05 AM EDT
+selectCodeEditor("ram_manchEnc_tx.v", 196, 234); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_dp__sim_par.v", 1); // k (j, cp)
+selectCodeEditor("ram_dp__sim_par.v", 120, 430); // cl (w, cp)
+selectCodeEditor("ram_dp__sim_par.v", 120, 442); // cl (w, cp)
+selectCodeEditor("ram_dp__sim_par.v", 119, 454); // cl (w, cp)
+selectCodeEditor("ram_dp__sim_par.v", 220, 472); // cl (w, cp)
+selectCodeEditor("ram_dp__sim_par.v", 230, 491); // cl (w, cp)
+selectCodeEditor("ram_dp__sim_par.v", 230, 499); // cl (w, cp)
+selectCodeEditor("ram_dp__sim_par.v", 229, 522); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_dp__sim_par.v", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 147, 412); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+selectCodeEditor("ram_manchDec_rx.v", 185, 381); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 244, 443); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,316 MB (+3233kb) [00:43:10]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,316 MB. GUI used memory: 60 MB. Current time: 10/19/20, 8:44:25 AM EDT
+// Elapsed time: 28 seconds
+selectCodeEditor("ram_manchEnc_tx.v", 159, 473); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 152, 477); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+selectCodeEditor("ram_manchDec_rx.v", 193, 403); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, ram_manchDec_tx.v]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, ram_manchDec_tx.v]", 2, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, ram_manchDec_tx.v]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, ram_manchDec_tx.v]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, ram_manchDec_tx.v]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, ram_manchDec_tx.v]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// ad (cp): Unable to Open File: addNotify
+selectButton(PAResourceOtoP.OpenFileAction_CANCEL, "Cancel"); // a (ad)
+dismissDialog("Unable to Open File"); // ad (cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, ram_manchDec_tx.v]", 2, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af (al, cp)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cp): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cp)
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_manchDec_tx.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_manchDec_tx.v 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,349 MB. GUI used memory: 60 MB. Current time: 10/19/20, 8:45:35 AM EDT
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+selectCodeEditor("ram_manchDec_rx.v", 676, 410); // cl (w, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, uart_top (uart_top.v)]", 1); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, uart_top (uart_top.v), rx : uart_rx_wrapper (uart_rx_wrapper.v)]", 2); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, uart_top (uart_top.v), rx : uart_rx_wrapper (uart_rx_wrapper.v)]", 2); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, uart_top (uart_top.v), rx : uart_rx_wrapper (uart_rx_wrapper.v)]", 2); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, uart_top (uart_top.v), rx : uart_rx_wrapper (uart_rx_wrapper.v)]", 2); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, uart_top (uart_top.v), tx : uart_tx_wrapper (uart_tx_wrapper.v)]", 4); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, uart_top (uart_top.v), tx : uart_tx_wrapper (uart_tx_wrapper.v)]", 4); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, uart_top (uart_top.v)]", 1); // B (D, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,349 MB. GUI used memory: 57 MB. Current time: 10/19/20, 9:15:35 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,349 MB. GUI used memory: 55 MB. Current time: 10/19/20, 9:45:35 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,349 MB. GUI used memory: 55 MB. Current time: 10/19/20, 10:15:35 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,349 MB. GUI used memory: 55 MB. Current time: 10/19/20, 10:45:35 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,349 MB. GUI used memory: 55 MB. Current time: 10/19/20, 11:15:35 AM EDT
+// Elapsed time: 10064 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectButton("CANCEL", "Cancel"); // JButton (j, c)
+dismissDialog("Add Sources"); // c (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,349 MB. GUI used memory: 55 MB. Current time: 10/19/20, 11:45:35 AM EDT
+// Elapsed time: 2479 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 3); // k (j, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 127, 277); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 127, 277, false, false, false, false, true); // cl (w, cp) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,349 MB. GUI used memory: 55 MB. Current time: 10/19/20, 12:15:36 PM EDT
+// Elapsed time: 49 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 260, 322); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 260, 322, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 110 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+// Elapsed time: 160 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 3); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 3); // k (j, cp)
+// Elapsed time: 276 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 188, 98); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 145, 179); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 145, 179, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 135, 107); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 165, 170); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 165, 170, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 119, 182); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 164, 115); // cl (w, cp)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 156, 162); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 156, 162, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 134, 91); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 103, 97); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 103, 97, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 76 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 73, 455); // cl (w, cp)
+// Elapsed time: 13 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 169, 227); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 169, 227, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 333, 289); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Rx_Enable.v", 4); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 5); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 84, 366); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 84, 366, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ram_manchEnc_tx.v", 164, 125); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 229, 300); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 103, 126); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 103, 126, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ram_manchEnc_tx.v", 247, 277); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 123, 281); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 123, 281, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 200, 277); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 199, 277); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 86, 463); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,371 MB. GUI used memory: 55 MB. Current time: 10/19/20, 12:29:06 PM EDT
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 5); // k (j, cp)
+selectCodeEditor("Manch_decoder.v", 180, 414); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 180, 414, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 84 seconds
+selectCodeEditor("Manch_decoder.v", 251, 233); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 251, 233, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+selectCodeEditor("ram_manchDec_rx.v", 129, 399); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 129, 399, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ram_manchDec_rx.v", 280, 250); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 280, 250, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ram_manchDec_rx.v", 152, 268); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 152, 268, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 43 seconds
+selectCodeEditor("ram_manchDec_rx.v", 440, 409); // cl (w, cp)
+// Elapsed time: 54 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 5); // k (j, cp)
+selectCodeEditor("Manch_decoder.v", 144, 370); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 144, 370, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 33 seconds
+selectCodeEditor("Manch_decoder.v", 61, 604); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 61, 604, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("Manch_decoder.v", 156, 607); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 156, 607, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("Manch_decoder.v", 203, 332); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 208, 316); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("Manch_decoder.v", 361, 216); // cl (w, cp)
+// Elapsed time: 13 seconds
+selectCodeEditor("Manch_decoder.v", 215, 232); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 215, 232, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 171, 355); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("Manch_decoder.v", 340, 217); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 340, 217, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 404, 390); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 230, 554); // cl (w, cp)
+// Elapsed time: 37 seconds
+selectCodeEditor("Manch_decoder.v", 340, 57); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 340, 57, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 71, 591); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+// Elapsed time: 35 seconds
+selectCodeEditor("Manch_decoder.v", 162, 442); // cl (w, cp)
+// Elapsed time: 13 seconds
+selectCodeEditor("Manch_decoder.v", 64, 246); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 112, 541); // cl (w, cp)
+// Elapsed time: 24 seconds
+selectCodeEditor("Manch_decoder.v", 127, 504); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 127, 504, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 128, 564); // cl (w, cp)
+// Elapsed time: 16 seconds
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+// Elapsed time: 23 seconds
+selectCodeEditor("Manch_decoder.v", 157, 558); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 157, 558, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 204, 561); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("Manch_decoder.v", 185, 513); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 185, 513, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("Manch_decoder.v", 151, 474); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 129, 436); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 129, 436, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 201, 533); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,383 MB (+943kb) [04:37:02]
+// Elapsed time: 24 seconds
+selectCodeEditor("Manch_decoder.v", 137, 529); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 137, 529, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("Manch_decoder.v", 190, 442); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 190, 442, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("Manch_decoder.v", 119, 499); // cl (w, cp)
+// Elapsed time: 30 seconds
+selectCodeEditor("Manch_decoder.v", 162, 445); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 162, 445, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("Manch_decoder.v", 132, 567); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 121, 581); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 298, 447); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 240, 374); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 85, 606); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 293, 263); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 42, 581); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 325, 427); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 105, 219); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 222, 188); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 104, 352); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 160, 453); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 235, 90); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 160, 408); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 121, 525); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 137, 514); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 117, 276); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 117, 276, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("Manch_decoder.v", 228, 294); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 246, 160); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 242, 290); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 348, 329); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 348, 329, false, false, false, false, true); // cl (w, cp) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,394 MB. GUI used memory: 55 MB. Current time: 10/19/20, 12:41:31 PM EDT
+// Elapsed time: 33 seconds
+selectCodeEditor("Manch_decoder.v", 336, 394); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 338, 364); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 338, 364, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 32 seconds
+selectCodeEditor("Manch_decoder.v", 376, 277); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 356, 284); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 356, 284, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 460, 266); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 6); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Rx_Enable.v", 5); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 6); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 6); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+selectCodeEditor("ram_manchDec_rx.v", 252, 263); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 171, 280); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 171, 280, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 253, 224); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 235, 239); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("ram_manchDec_rx.v", 134, 205); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 134, 205, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ram_manchDec_rx.v", 119, 23); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 119, 23, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ram_manchDec_rx.v", 119, 23); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 125, 35); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 125, 24); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 137, 21); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 131, 24); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 156, 25); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 156, 25, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 111, 260); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 111, 260, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("ram_manchDec_rx.v", 192, 431); // cl (w, cp)
+// Elapsed time: 44 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 6); // k (j, cp)
+selectCodeEditor("Manch_decoder.v", 427, 271); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 204, 294); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 204, 294, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 498, 412); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 189, 384); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 118, 297); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 180, 475); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 392, 308); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 388, 471); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 389, 465); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 393, 458); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 178, 459); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 322, 322); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'v'); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 70 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+selectCodeEditor("ram_manchDec_rx.v", 290, 186); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 140, 234); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 279, 265); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("ram_manchDec_rx.v", 113, 269); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 113, 269, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ram_manchDec_rx.v", 116, 274); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 116, 274, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 106, 432); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 106, 432, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchDec_rx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 79, 428); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 79, 428, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ram_manchDec_rx.v", 101, 343); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 112, 409); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 112, 409, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ram_manchDec_rx.v", 123, 627); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 123, 627, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 86 seconds
+selectCodeEditor("ram_manchDec_rx.v", 116, 355); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 116, 355, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ram_manchDec_rx.v", 84, 289); // cl (w, cp)
+selectCodeEditor("ram_manchDec_rx.v", 84, 289, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ram_manchDec_rx.v", 334, 529); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 6); // k (j, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,426 MB. GUI used memory: 55 MB. Current time: 10/19/20, 12:48:51 PM EDT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 4); // k (j, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 208, 182); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 208, 182, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 242, 608); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 4); // k (j, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 165, 232); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 165, 232, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 238, 233); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 235, 619); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 235, 619, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ram_manchEnc_tx.v", 133, 488); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 133, 488, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 219, 623); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 219, 623, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 55 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 4); // k (j, cp)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 82, 379); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 82, 379, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ram_manchEnc_tx.v", 103, 519); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 103, 519, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 155 seconds
+selectCodeEditor("ram_manchEnc_tx.v", 67, 266); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 67, 266, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ram_manchEnc_tx.v", 82, 266); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 82, 266, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("ram_manchEnc_tx.v", 87, 282); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 87, 282, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 4); // k (j, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 143, 210); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 143, 210, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 149, 200); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 149, 200, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 52 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 94, 231); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 94, 231, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 177, 181); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 179, 322); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 184, 294); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 1,458 MB (+6529kb) [04:53:45]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 4); // k (j, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,458 MB. GUI used memory: 55 MB. Current time: 10/19/20, 12:55:01 PM EDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Rx_Enable.v", 3); // k (j, cp)
+selectCodeEditor("Rx_Enable.v", 205, 461); // cl (w, cp)
+selectCodeEditor("Rx_Enable.v", 179, 277); // cl (w, cp)
+selectCodeEditor("Rx_Enable.v", 179, 277, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("Rx_Enable.v", 173, 623); // cl (w, cp)
+selectCodeEditor("Rx_Enable.v", 173, 623, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 36 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 4); // k (j, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 153, 252); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 153, 252, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 60, 278); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 58, 281); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 247, 116); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 168, 522); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 230, 526); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 57, 276); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 253, 533); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 244, 538, true, false, false, false, false); // cl (w, cp) - Shift Key
+// Elapsed time: 17 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 113, 560); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 223, 275); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+// Elapsed time: 20 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 257, 303); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchDec_rx.v", 7); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 6); // k (j, cp)
+selectCodeEditor("Manch_decoder.v", 251, 262); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 307, 239); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 4); // k (j, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 6); // k (j, cp)
+selectCodeEditor("Manch_decoder.v", 233, 142); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_decoder.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 248, 147); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 4); // k (j, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 215, 339); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 177, 440); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_decoder.v", 6); // k (j, cp)
+selectCodeEditor("Manch_decoder.v", 332, 234); // cl (w, cp)
+selectCodeEditor("Manch_decoder.v", 332, 234, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 91 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 4); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 4); // k (j, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 122, 161); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 122, 161, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 208 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 242, 552); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 176, 261); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 151, 201); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 150, 663); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 162, 367); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 151, 382); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 200, 320); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 260, 474); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 167, 626); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 148, 265); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 198, 323); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 203, 500); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 219, 628); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 170, 339); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 170, 339, false, false, false, false, true); // cl (w, cp) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,491 MB. GUI used memory: 55 MB. Current time: 10/19/20, 1:06:16 PM EDT
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 178, 323); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 178, 323, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 111, 215); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 166, 293); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'c'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 104, 234); // cl (w, cp)
+typeControlKey((HResource) null, "Manch_Enc_clk2_clk1.v", 'v'); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 229, 260); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+// Elapsed time: 323 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Manch_Enc_clk2_clk1.v", 4); // k (j, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 170, 284); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 170, 284, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 175, 159); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 175, 159, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 114, 216); // cl (w, cp)
+selectCodeEditor("Manch_Enc_clk2_clk1.v", 114, 216, false, false, false, false, true); // cl (w, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_manchEnc_tx.v", 5); // k (j, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 269, 464); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 311, 247); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 82, 281); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 82, 281, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'c'); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("ram_manchEnc_tx.v", 106, 247); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 106, 247, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 122, 533); // cl (w, cp)
+selectCodeEditor("ram_manchEnc_tx.v", 122, 533, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "ram_manchEnc_tx.v", 'v'); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectCodeEditor("ram_manchEnc_tx.v", 121, 411); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,523 MB. GUI used memory: 55 MB. Current time: 10/19/20, 1:13:41 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,523 MB. GUI used memory: 55 MB. Current time: 10/19/20, 1:43:41 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,523 MB. GUI used memory: 55 MB. Current time: 10/19/20, 2:13:41 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,523 MB. GUI used memory: 55 MB. Current time: 10/19/20, 2:43:41 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,523 MB. GUI used memory: 55 MB. Current time: 10/19/20, 3:13:41 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,523 MB. GUI used memory: 55 MB. Current time: 10/19/20, 3:43:41 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,523 MB. GUI used memory: 55 MB. Current time: 10/19/20, 4:13:41 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,523 MB. GUI used memory: 55 MB. Current time: 10/19/20, 4:43:41 PM EDT
