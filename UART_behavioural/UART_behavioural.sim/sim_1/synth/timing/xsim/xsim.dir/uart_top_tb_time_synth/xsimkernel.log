@@ -1,0 +1,7 @@
+Running: xsim.dir/uart_top_tb_time_synth/xsimk -simmode gui -wdb uart_top_tb_time_synth.wdb -simrunnum 0 -socket 57191
+Design successfully loaded
+Design Loading Memory Usage: 37876 KB (Peak: 37876 KB)
+Design Loading CPU Usage: 40 ms
+Simulation completed
+Simulation Memory Usage: 120144 KB (Peak: 185148 KB)
+Simulation CPU Usage: 133820 ms

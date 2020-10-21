@@ -3,7 +3,17 @@ Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
 Running: /tools/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto f1005e7cfe0e449eb56bf04cfa95922e --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_top_tb_behav xil_defaultlib.uart_top_tb xil_defaultlib.glbl -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
-WARNING: [VRFC 10-2861] module 'ram_dp__sim_par' does not have a parameter named DATAWIDTH [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_top.v:66]
-WARNING: [VRFC 10-2861] module 'ram_dp__sim_par' does not have a parameter named RAMDEPTH [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_top.v:67]
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.uart_rxm_ex(BITCOUNTMAX=8,SAMPLE...
+Compiling module xil_defaultlib.uart_rx_wrapper(BITCOUNTMAX=8)
+Compiling module xil_defaultlib.ram_dp__sim_par(ADDRS_WIDTH=5)
+Compiling module xil_defaultlib.ff
+Compiling module xil_defaultlib.uart_txm_ex(BITCOUNTMAX=8,SAMPLE...
+Compiling module xil_defaultlib.uart_tx_wrapper(BITCOUNTMAX=8)
+Compiling module xil_defaultlib.uart_top(BITCOUNTMAX=8)
+Compiling module xil_defaultlib.uart_top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_top_tb_behav

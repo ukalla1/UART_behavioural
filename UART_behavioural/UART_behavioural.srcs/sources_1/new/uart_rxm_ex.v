@@ -30,8 +30,7 @@ module uart_rxm_ex  #(
     input rx_serial_data,
     output [DATAWIDTH-1:0] rx_parallel_data,
     output flag_err,
-    output rx_ready,
-    output ram_en
+    output rx_ready
     );
     
     reg [DATAWIDTH-1:0] rx_shift_reg;                                  //data
@@ -46,7 +45,7 @@ module uart_rxm_ex  #(
     
     reg [2:0] state;
     
-    reg flag_err_internal, ready_internal, ram_en_internal;
+    reg flag_err_internal, ready_internal;
     
     localparam idle = 3'b000, starting = 3'b001, receiving = 3'b010, stop = 3'b011;//, check_parity = 3'b100;
     
@@ -55,8 +54,6 @@ module uart_rxm_ex  #(
     assign rx_ready = ready_internal;
     
     assign rx_parallel_data = rx_data;
-    
-    assign ram_en = ram_en_internal;
     
     always @(posedge clk) begin
         if(rst) begin
@@ -67,7 +64,6 @@ module uart_rxm_ex  #(
             rx_data <= {(DATAWIDTH-1){1'b0}};
             bit_count <= {(BCWIDTH-1){1'b0}};
             sample_count <= {(SCWIDTH-1){1'b0}};
-            ram_en_internal <= 1'b0;
         end
         else begin
             case(state)
@@ -76,7 +72,6 @@ module uart_rxm_ex  #(
                     sample_count <= {(SCWIDTH-1){1'b0}};
                     flag_err_internal <= 1'b0;
                     ready_internal <= 1'b1;
-                    ram_en_internal <= 1'b0;
                     if(!rx_serial_data) begin
                         state <= starting;
                         ready_internal <= 1'b0;
@@ -125,14 +120,14 @@ module uart_rxm_ex  #(
                 end
                 
                 stop: begin
-                    if (sample_count < SAMPLECOUNTMAX/2) begin
+                    if (sample_count < SAMPLECOUNTMAX) begin
                         sample_count <= sample_count + 1'b1;
                         state <= stop;
                     end
                     else begin
                         if (rx_serial_data) begin
                             rx_data <= rx_shift_reg[DATAWIDTH-1:0];
-                            ram_en_internal <= 1'b1;
+                            ready_internal <= 1'b1;
                             state = idle;
                         end
                         else begin

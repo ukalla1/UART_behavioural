@@ -1,3 +1,2 @@
 Vivado Simulator 2018.3
 Time resolution is 1 ps
-$finish called at time : 310960 ns : File "/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sim_1/new/uart_rx_ex_tb.v" Line 94

@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"uart_top_tb_time_synth.v" \
+"../../../../../UART_behavioural.srcs/sim_1/new/ff_tb.v" \
+"../../../../../UART_behavioural.srcs/sim_1/new/uart_rx_ex_tb.v" \
+"../../../../../UART_behavioural.srcs/sim_1/new/uart_rx_wrapper_tb.v" \
+"../../../../../UART_behavioural.srcs/sim_1/new/uart_top_tb.v" \
+"../../../../../UART_behavioural.srcs/sim_1/new/uart_tx_wrapper_tb.v" \
+"../../../../../UART_behavioural.srcs/sim_1/new/uart_txm_ex_tb.v" \
+
+# Do not sort compile order
+nosort

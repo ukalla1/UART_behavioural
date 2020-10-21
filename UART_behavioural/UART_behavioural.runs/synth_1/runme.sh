@@ -36,4 +36,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log ram_dp__sim_par.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ram_dp__sim_par.tcl
+EAStep vivado -log uart_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source uart_top.tcl

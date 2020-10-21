@@ -31,19 +31,16 @@ module uart_top_tb #(
     reg clk;
     reg rst;
     reg rx_serial_data;
-    reg load_tx_data;
+    reg tx_on;
+    reg rx_on;
     wire tx_serial_data;
     wire o_rx_flag_err;
-    wire [6:0] disp;
-    wire o_rx_ready;
-    wire [7:0] an;
-    wire tx_ready;
+//    wire [6:0] disp;
+//    wire [7:0] an;
     
     integer period = 10;
     
-    reg flag = 0;
-    
-    reg [7:0] i, j;
+    reg [7:0] data, i=0;
     
     uart_top #(
         .DATAWIDTH(DATAWIDTH),
@@ -55,17 +52,16 @@ module uart_top_tb #(
         .clk(clk),
         .rst(rst),
         .rx_serial_data(rx_serial_data),
-        .load_tx_data(load_tx_data),
+        .tx_on(tx_on),
+        .rx_on(rx_on),
         .tx_serial_data(tx_serial_data),
-        .o_rx_flag_err(o_rx_flag_err),
-        .disp(disp),
-        .o_rx_ready(o_rx_ready),
-        .an(an),
-        .tx_ready(tx_ready)
+        .o_rx_flag_err(o_rx_flag_err)
+//        .disp(disp),
+//        .an(an)
     );
     
     initial begin
-        clk = 1'b1;
+        clk = 1'b0;
     end
     
     initial begin
@@ -73,44 +69,155 @@ module uart_top_tb #(
     end
     
     initial begin
+    
         rst = 1'b1;
-        load_tx_data = 1'b0;
+        rx_on = 1'b0;
+        tx_on = 1'b0;
         rx_serial_data = 1'b1;
         
         #(1000*period);
         
         rst = 1'b0;
+        rx_on = 1'b1;
+                data = 8'ha;
+        rx_serial_data = 1'b0;
+        #(SAMPLECOUNTMAX_RX*period);
+        for (i=0;i<8;i=i+1) begin
+            rx_serial_data = data[i];
+            #(SAMPLECOUNTMAX_RX*period);
+        end
         rx_serial_data = 1'b1;
+        #(SAMPLECOUNTMAX_RX*period);
         
-        #(1000*period);
+                data = 8'hb;
+        rx_serial_data = 1'b0;
+        #(SAMPLECOUNTMAX_RX*period);
+        for (i=0;i<8;i=i+1) begin
+            rx_serial_data = data[i];
+            #(SAMPLECOUNTMAX_RX*period);
+        end
+        rx_serial_data = 1'b1;
+        #(SAMPLECOUNTMAX_RX*period);
         
-        fork
+                data = 8'hc;
+        rx_serial_data = 1'b0;
+        #(SAMPLECOUNTMAX_RX*period);
+        for (i=0;i<8;i=i+1) begin
+            rx_serial_data = data[i];
+            #(SAMPLECOUNTMAX_RX*period);
+        end
+        rx_serial_data = 1'b1;
+        #(SAMPLECOUNTMAX_RX*period);
         
-            for (i=0; i<=8; i = i+1) begin
-                rx_serial_data = 1'b0;
-                #(SAMPLECOUNTMAX_RX*period);
-                for (j=0; j<8; j=j+1) begin
-                    rx_serial_data = i[j];
-                    #(SAMPLECOUNTMAX_RX*period);
-                    if(j == 7) begin
-                        rx_serial_data = 1'b1;
-                        #(SAMPLECOUNTMAX_RX*period);
-                    end
-                end
-            end
-            
-            for(i=0; i<=8; i=i+1) begin
-                #(16*SAMPLECOUNTMAX_RX*period);
-                load_tx_data = 1'b1;
-                #(2*period);
-                load_tx_data = 1'b0;
-                #(SAMPLECOUNTMAX_TX*(period*2));
-            end
+                data = 8'hd;
+        rx_serial_data = 1'b0;
+        #(SAMPLECOUNTMAX_RX*period);
+        for (i=0;i<8;i=i+1) begin
+            rx_serial_data = data[i];
+            #(SAMPLECOUNTMAX_RX*period);
+        end
+        rx_serial_data = 1'b1;
+        #(SAMPLECOUNTMAX_RX*period);
         
-        join
+                data = 8'he;
+        rx_serial_data = 1'b0;
+        #(SAMPLECOUNTMAX_RX*period);
+        for (i=0;i<8;i=i+1) begin
+            rx_serial_data = data[i];
+            #(SAMPLECOUNTMAX_RX*period);
+        end
+        rx_serial_data = 1'b1;
+        #(SAMPLECOUNTMAX_RX*period);
+        
+                data = 8'hf;
+        rx_serial_data = 1'b0;
+        #(SAMPLECOUNTMAX_RX*period);
+        for (i=0;i<8;i=i+1) begin
+            rx_serial_data = data[i];
+            #(SAMPLECOUNTMAX_RX*period);
+        end
+        rx_serial_data = 1'b1;
+        #(SAMPLECOUNTMAX_RX*period);
+        
+                data = 8'h1a;
+        rx_serial_data = 1'b0;
+        #(SAMPLECOUNTMAX_RX*period);
+        for (i=0;i<8;i=i+1) begin
+            rx_serial_data = data[i];
+            #(SAMPLECOUNTMAX_RX*period);
+        end
+        rx_serial_data = 1'b1;
+        #(SAMPLECOUNTMAX_RX*period);
+        
+                data = 8'h1b;
+        rx_serial_data = 1'b0;
+        #(SAMPLECOUNTMAX_RX*period);
+        for (i=0;i<8;i=i+1) begin
+            rx_serial_data = data[i];
+            #(SAMPLECOUNTMAX_RX*period);
+        end
+        rx_serial_data = 1'b1;
+        #(SAMPLECOUNTMAX_RX*period);
+        
+        rx_on = 1'b0;
+        
+        #(10000*period);
+        
+        tx_on =  1'b1;
+        
+        #(SAMPLECOUNTMAX_RX*period);
+        for (i=0;i<8;i=i+1) begin
+            #(SAMPLECOUNTMAX_RX*period);
+        end
+        #(SAMPLECOUNTMAX_RX*period);
+        
+        #(SAMPLECOUNTMAX_RX*period);
+        for (i=0;i<8;i=i+1) begin
+            #(SAMPLECOUNTMAX_RX*period);
+        end
+        #(SAMPLECOUNTMAX_RX*period);
+        
+        #(SAMPLECOUNTMAX_RX*period);
+        for (i=0;i<8;i=i+1) begin
+            #(SAMPLECOUNTMAX_RX*period);
+        end
+        #(SAMPLECOUNTMAX_RX*period);
+        
+        #(SAMPLECOUNTMAX_RX*period);
+        for (i=0;i<8;i=i+1) begin
+            #(SAMPLECOUNTMAX_RX*period);
+        end
+        #(SAMPLECOUNTMAX_RX*period);
+        
+        #(SAMPLECOUNTMAX_RX*period);
+        for (i=0;i<8;i=i+1) begin
+            #(SAMPLECOUNTMAX_RX*period);
+        end
+        #(SAMPLECOUNTMAX_RX*period);
+        
+        #(SAMPLECOUNTMAX_RX*period);
+        for (i=0;i<8;i=i+1) begin
+            #(SAMPLECOUNTMAX_RX*period);
+        end
+        #(SAMPLECOUNTMAX_RX*period);
+        
+        #(SAMPLECOUNTMAX_RX*period);
+        for (i=0;i<8;i=i+1) begin
+            #(SAMPLECOUNTMAX_RX*period);
+        end
+        #(SAMPLECOUNTMAX_RX*period);
+        
+        #(SAMPLECOUNTMAX_RX*period);
+        for (i=0;i<8;i=i+1) begin
+            #(SAMPLECOUNTMAX_RX*period);
+        end
+        #(SAMPLECOUNTMAX_RX*period);
+        
+        tx_on = 1'b0;
+        
+        #(10000*period);
         
         $finish;
-        
     end
     
 endmodule
