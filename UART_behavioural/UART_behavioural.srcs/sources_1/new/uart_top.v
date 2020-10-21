@@ -34,7 +34,9 @@ module uart_top #(
     input rx_on,
     input tx_on,
     output o_rx_flag_err,
-    output tx_serial_data
+    output tx_serial_data,
+    output [6:0] rx_disp,
+    output [7:0] an
     );
     
     wire rx_ready, tx_ready;
@@ -61,7 +63,9 @@ module uart_top #(
         .rx_serial_data(rx_serial_data_internal),
         .o_rx_parallel_data(o_rx_parallel_data),
         .o_flag_err(o_rx_flag_err),
-        .o_rx_ready(rx_ready)
+        .o_rx_ready(rx_ready),
+        .disp(rx_disp),
+        .an(an)
     );
     
     ram_dp__sim_par #(
@@ -76,7 +80,8 @@ module uart_top #(
         .dina(o_rx_parallel_data),
         .addra(ram_addra),
         .addrb(ram_addrb),
-        .doutb(mem_out));
+        .doutb(mem_out)
+    );
         
     uart_tx_wrapper #(
         .DATAWIDTH(DATAWIDTH),

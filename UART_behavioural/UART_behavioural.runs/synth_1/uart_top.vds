@@ -2,8 +2,8 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Wed Oct 21 15:00:40 2020
-# Process ID: 55976
+# Start of session at: Wed Oct 21 16:02:42 2020
+# Process ID: 61946
 # Current directory: /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.runs/synth_1
 # Command line: vivado -log uart_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source uart_top.tcl
 # Log file: /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.runs/synth_1/uart_top.vds
@@ -15,9 +15,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 55994 
+INFO: Helper process launched with PID 61960 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1354.574 ; gain = 0.000 ; free physical = 127 ; free virtual = 5243
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1354.578 ; gain = 0.000 ; free physical = 1737 ; free virtual = 5772
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'uart_top' [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_top.v:23]
 	Parameter DATAWIDTH bound to: 8 - type: integer 
@@ -47,19 +47,22 @@ INFO: [Synth 8-6157] synthesizing module 'uart_rxm_ex' [/home/ukallakuri/hardwar
 	Parameter receiving bound to: 3'b010 
 	Parameter stop bound to: 3'b011 
 INFO: [Synth 8-6155] done synthesizing module 'uart_rxm_ex' (1#1) [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_rxm_ex.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'uart_rx_wrapper' (2#1) [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_rx_wrapper.v:23]
+INFO: [Synth 8-6157] synthesizing module 'seven_seg' [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/seven_seg.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'seven_seg' (2#1) [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/seven_seg.v:8]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_rx_wrapper.v:95]
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx_wrapper' (3#1) [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_rx_wrapper.v:23]
 INFO: [Synth 8-6157] synthesizing module 'ram_dp__sim_par' [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_dp__sim_par.v:23]
 	Parameter DATA_WIDTH bound to: 8 - type: integer 
 	Parameter RAM_DEPTH bound to: 32 - type: integer 
 	Parameter INIT_FILE bound to: (null) - type: string 
 	Parameter ADDRS_WIDTH bound to: 5 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'ram_dp__sim_par' (3#1) [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_dp__sim_par.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ram_dp__sim_par' (4#1) [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_dp__sim_par.v:23]
 INFO: [Synth 8-6157] synthesizing module 'uart_tx_wrapper' [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_tx_wrapper.v:23]
 	Parameter DATAWIDTH bound to: 8 - type: integer 
 	Parameter BITCOUNTMAX bound to: 8 - type: integer 
 	Parameter SAMPLECOUNTMAX bound to: 5209 - type: integer 
 INFO: [Synth 8-6157] synthesizing module 'ff' [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ff.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'ff' (4#1) [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ff.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ff' (5#1) [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ff.v:23]
 INFO: [Synth 8-6157] synthesizing module 'uart_txm_ex' [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_txm_ex.v:23]
 	Parameter DATAWIDTH bound to: 8 - type: integer 
 	Parameter BITCOUNTMAX bound to: 8 - type: integer 
@@ -70,12 +73,12 @@ INFO: [Synth 8-6157] synthesizing module 'uart_txm_ex' [/home/ukallakuri/hardwar
 	Parameter tx_start bound to: 2'b01 
 	Parameter tx_data bound to: 2'b10 
 	Parameter stop bound to: 2'b11 
-INFO: [Synth 8-6155] done synthesizing module 'uart_txm_ex' (5#1) [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_txm_ex.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'uart_tx_wrapper' (6#1) [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_tx_wrapper.v:23]
-INFO: [Synth 8-155] case statement is not full and has no default [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_top.v:105]
-INFO: [Synth 8-6155] done synthesizing module 'uart_top' (7#1) [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_top.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'uart_txm_ex' (6#1) [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_txm_ex.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'uart_tx_wrapper' (7#1) [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_tx_wrapper.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_top.v:110]
+INFO: [Synth 8-6155] done synthesizing module 'uart_top' (8#1) [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_top.v:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1369.988 ; gain = 15.414 ; free physical = 183 ; free virtual = 5253
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1369.992 ; gain = 15.414 ; free physical = 1749 ; free virtual = 5784
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -88,10 +91,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1369.988 ; gain = 15.414 ; free physical = 182 ; free virtual = 5253
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1369.992 ; gain = 15.414 ; free physical = 1749 ; free virtual = 5783
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1369.988 ; gain = 15.414 ; free physical = 182 ; free virtual = 5253
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1369.992 ; gain = 15.414 ; free physical = 1749 ; free virtual = 5783
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -104,30 +107,30 @@ Parsing XDC File [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural
 Finished Parsing XDC File [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/constrs_1/new/timing.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/constrs_1/new/timing.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/uart_top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/uart_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1711.848 ; gain = 0.000 ; free physical = 135 ; free virtual = 4984
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1712.852 ; gain = 0.000 ; free physical = 1482 ; free virtual = 5517
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1711.848 ; gain = 0.000 ; free physical = 136 ; free virtual = 4985
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1712.852 ; gain = 0.000 ; free physical = 1483 ; free virtual = 5518
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1711.848 ; gain = 0.000 ; free physical = 136 ; free virtual = 4985
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1711.848 ; gain = 0.000 ; free physical = 136 ; free virtual = 4985
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1712.852 ; gain = 0.000 ; free physical = 1483 ; free virtual = 5518
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1712.852 ; gain = 0.000 ; free physical = 1483 ; free virtual = 5518
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1711.848 ; gain = 357.273 ; free physical = 214 ; free virtual = 5064
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1712.852 ; gain = 358.273 ; free physical = 1557 ; free virtual = 5592
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1711.848 ; gain = 357.273 ; free physical = 214 ; free virtual = 5064
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1712.852 ; gain = 358.273 ; free physical = 1557 ; free virtual = 5592
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1711.848 ; gain = 357.273 ; free physical = 216 ; free virtual = 5066
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1712.852 ; gain = 358.273 ; free physical = 1559 ; free virtual = 5594
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'uart_rxm_ex'
 INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
@@ -173,7 +176,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'uart_top'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1711.848 ; gain = 357.273 ; free physical = 204 ; free virtual = 5054
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1712.852 ; gain = 358.273 ; free physical = 1549 ; free virtual = 5585
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -193,7 +196,8 @@ Detailed RTL Component Info :
 +---Registers : 
 	               14 Bit    Registers := 1     
 	               13 Bit    Registers := 1     
-	                8 Bit    Registers := 5     
+	                8 Bit    Registers := 6     
+	                7 Bit    Registers := 3     
 	                5 Bit    Registers := 2     
 	                3 Bit    Registers := 2     
 	                1 Bit    Registers := 9     
@@ -206,12 +210,13 @@ Detailed RTL Component Info :
 	   4 Input     13 Bit        Muxes := 1     
 	   2 Input      8 Bit        Muxes := 1     
 	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
 	   2 Input      3 Bit        Muxes := 8     
 	   4 Input      3 Bit        Muxes := 2     
 	   6 Input      3 Bit        Muxes := 1     
 	   4 Input      2 Bit        Muxes := 2     
-	   2 Input      2 Bit        Muxes := 13    
-	   2 Input      1 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 17    
+	   2 Input      1 Bit        Muxes := 5     
 	   3 Input      1 Bit        Muxes := 1     
 	   4 Input      1 Bit        Muxes := 15    
 	   6 Input      1 Bit        Muxes := 10    
@@ -253,6 +258,19 @@ Detailed RTL Component Info :
 	   2 Input      1 Bit        Muxes := 1     
 	   3 Input      1 Bit        Muxes := 1     
 	   4 Input      1 Bit        Muxes := 7     
+Module seven_seg 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
+Module uart_rx_wrapper 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 2     
 Module ram_dp__sim_par 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -300,8 +318,14 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'rx/an_reg[2]' (FDS) to 'rx/an_reg[3]'
+INFO: [Synth 8-3886] merging instance 'rx/an_reg[3]' (FDS) to 'rx/an_reg[4]'
+INFO: [Synth 8-3886] merging instance 'rx/an_reg[4]' (FDS) to 'rx/an_reg[5]'
+INFO: [Synth 8-3886] merging instance 'rx/an_reg[5]' (FDS) to 'rx/an_reg[6]'
+INFO: [Synth 8-3886] merging instance 'rx/an_reg[6]' (FDS) to 'rx/an_reg[7]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\rx/an_reg[7] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1711.848 ; gain = 357.273 ; free physical = 198 ; free virtual = 5050
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1712.852 ; gain = 358.273 ; free physical = 1537 ; free virtual = 5574
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -328,13 +352,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1711.848 ; gain = 357.273 ; free physical = 128 ; free virtual = 4941
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1712.852 ; gain = 358.273 ; free physical = 1413 ; free virtual = 5450
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1711.848 ; gain = 357.273 ; free physical = 143 ; free virtual = 4938
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1712.852 ; gain = 358.273 ; free physical = 1412 ; free virtual = 5449
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -360,7 +384,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1711.848 ; gain = 357.273 ; free physical = 141 ; free virtual = 4937
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1712.852 ; gain = 358.273 ; free physical = 1410 ; free virtual = 5447
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -384,7 +408,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1711.848 ; gain = 357.273 ; free physical = 141 ; free virtual = 4937
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1712.852 ; gain = 358.273 ; free physical = 1399 ; free virtual = 5436
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -397,7 +421,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1711.848 ; gain = 357.273 ; free physical = 141 ; free virtual = 4937
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1712.852 ; gain = 358.273 ; free physical = 1399 ; free virtual = 5436
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -409,25 +433,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1711.848 ; gain = 357.273 ; free physical = 141 ; free virtual = 4937
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1712.852 ; gain = 358.273 ; free physical = 1399 ; free virtual = 5436
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1711.848 ; gain = 357.273 ; free physical = 141 ; free virtual = 4937
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1712.852 ; gain = 358.273 ; free physical = 1399 ; free virtual = 5436
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1711.848 ; gain = 357.273 ; free physical = 141 ; free virtual = 4937
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1712.852 ; gain = 358.273 ; free physical = 1399 ; free virtual = 5436
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1711.848 ; gain = 357.273 ; free physical = 141 ; free virtual = 4937
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1712.852 ; gain = 358.273 ; free physical = 1399 ; free virtual = 5436
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -444,55 +468,57 @@ Report Cell Usage:
 |      |Cell   |Count |
 +------+-------+------+
 |1     |BUFG   |     2|
-|2     |CARRY4 |     7|
-|3     |LUT1   |     3|
+|2     |CARRY4 |    12|
+|3     |LUT1   |     5|
 |4     |LUT2   |    14|
-|5     |LUT3   |    11|
-|6     |LUT4   |    20|
+|5     |LUT3   |    18|
+|6     |LUT4   |    34|
 |7     |LUT5   |    16|
 |8     |LUT6   |    40|
 |9     |RAM32M |     2|
-|10    |FDRE   |    87|
-|11    |FDSE   |    12|
+|10    |FDRE   |   128|
+|11    |FDSE   |    14|
 |12    |IBUF   |     5|
-|13    |OBUF   |     2|
+|13    |OBUF   |    17|
 +------+-------+------+
 
 Report Instance Areas: 
 +------+------------+----------------+------+
 |      |Instance    |Module          |Cells |
 +------+------------+----------------+------+
-|1     |top         |                |   221|
+|1     |top         |                |   307|
 |2     |  ram       |ram_dp__sim_par |    18|
-|3     |  rx        |uart_rx_wrapper |    79|
-|4     |    rx      |uart_rxm_ex     |    79|
-|5     |  tx        |uart_tx_wrapper |    85|
-|6     |    clk_div |ff              |     2|
-|7     |    tx      |uart_txm_ex     |    83|
+|3     |  rx        |uart_rx_wrapper |   150|
+|4     |    ln      |seven_seg       |    16|
+|5     |    rx      |uart_rxm_ex     |    89|
+|6     |    un      |seven_seg_0     |     9|
+|7     |  tx        |uart_tx_wrapper |    85|
+|8     |    clk_div |ff              |     2|
+|9     |    tx      |uart_txm_ex     |    83|
 +------+------------+----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1711.848 ; gain = 357.273 ; free physical = 141 ; free virtual = 4937
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1712.852 ; gain = 358.273 ; free physical = 1399 ; free virtual = 5436
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1711.848 ; gain = 15.414 ; free physical = 195 ; free virtual = 4990
-Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1711.855 ; gain = 357.273 ; free physical = 195 ; free virtual = 4991
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1712.852 ; gain = 15.414 ; free physical = 1452 ; free virtual = 5489
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1712.859 ; gain = 358.273 ; free physical = 1452 ; free virtual = 5489
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1711.855 ; gain = 0.000 ; free physical = 135 ; free virtual = 4932
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1712.859 ; gain = 0.000 ; free physical = 1401 ; free virtual = 5431
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 2 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-44 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+53 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1711.855 ; gain = 357.367 ; free physical = 190 ; free virtual = 4987
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1711.855 ; gain = 0.000 ; free physical = 190 ; free virtual = 4987
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1712.859 ; gain = 358.367 ; free physical = 1456 ; free virtual = 5486
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1712.859 ; gain = 0.000 ; free physical = 1456 ; free virtual = 5486
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint '/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.runs/synth_1/uart_top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file uart_top_utilization_synth.rpt -pb uart_top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Oct 21 15:01:03 2020...
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 21 16:03:10 2020...

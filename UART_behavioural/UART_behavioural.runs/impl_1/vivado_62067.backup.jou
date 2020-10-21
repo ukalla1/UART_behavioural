@@ -2,8 +2,8 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Wed Oct 21 15:01:04 2020
-# Process ID: 56096
+# Start of session at: Wed Oct 21 16:03:11 2020
+# Process ID: 62067
 # Current directory: /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.runs/impl_1
 # Command line: vivado -log uart_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source uart_top.tcl -notrace
 # Log file: /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.runs/impl_1/uart_top.vdi
