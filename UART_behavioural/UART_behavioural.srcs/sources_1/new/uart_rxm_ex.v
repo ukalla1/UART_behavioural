@@ -128,11 +128,11 @@ module uart_rxm_ex  #(
                         if (rx_serial_data) begin
                             rx_data <= rx_shift_reg[DATAWIDTH-1:0];
                             ready_internal <= 1'b1;
-                            state = idle;
+                            state <= idle;
                         end
                         else begin
                             flag_err_internal <= 1'b1;
-                            state = idle;
+                            state <= idle;
                         end
                     end
                 end

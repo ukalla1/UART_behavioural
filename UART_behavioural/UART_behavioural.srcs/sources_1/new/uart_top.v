@@ -25,7 +25,8 @@ module uart_top #(
     parameter BITCOUNTMAX = DATAWIDTH,
     parameter SAMPLECOUNTMAX_RX = 10417,
     parameter SAMPLECOUNTMAX_TX = 5209,
-    parameter RAMDEPTH = 32,
+    parameter RAMDEPTH = 256,
+    parameter INIT_FILE = "data.mem",
     parameter ADDRS_WIDTH = clogb2(RAMDEPTH-1)
 )(
     input clk,
@@ -45,13 +46,15 @@ module uart_top #(
     
     reg rx_serial_data_internal;
     
-    reg wea, enb, tx_data_load;
+    reg wea, enb, tx_data_load;//, tx_data_load_delayed;
     
-    reg [ADDRS_WIDTH-1:0] ram_addra, ram_addrb;
+    reg [ADDRS_WIDTH-1:0] ram_addra, ram_addrb;//, ram_addra_last=0;
+    
+    reg [3:0] cntr;
     
     reg [2:0] state;
     
-    localparam idle = 3'b000, rx_data = 3'b001, mem_write = 3'b010, rx_stop = 3'b011, mem_read = 3'b100, tx_data = 3'b101;//, tx_stop = 3'b110;
+    localparam idle = 3'b000, rx_data = 3'b001, mem_write = 3'b010, rx_stop = 3'b011, mem_read = 3'b100, tx_idle = 3'b101, tx_data = 3'b110;
     
     uart_rx_wrapper #(
         .DATAWIDTH(DATAWIDTH),
@@ -71,7 +74,7 @@ module uart_top #(
     ram_dp__sim_par #(
         .DATA_WIDTH(DATAWIDTH),
         .RAM_DEPTH(RAMDEPTH),
-        .INIT_FILE(""),
+        .INIT_FILE(INIT_FILE),
         .ADDRS_WIDTH(ADDRS_WIDTH)
     )ram(
         .clk(clk),
@@ -96,6 +99,10 @@ module uart_top #(
         .tx_ready(tx_ready)
     );
         
+//        always @(posedge clk) begin
+//            tx_data_load_delayed <= tx_data_load;
+//        end
+        
         always @(posedge clk) begin
             if(rst) begin
                 state <= idle;
@@ -105,11 +112,14 @@ module uart_top #(
                 ram_addra <= {ADDRS_WIDTH{1'b0}};
                 ram_addrb <= {ADDRS_WIDTH{1'b0}};
                 tx_data_load <= 1'b0;
+                cntr <= 0;
+//                tx_data_load_delayed <= tx_data_load;
             end
             else begin
                 case(state)
                     
                     idle: begin
+                        cntr <= 0;
                         if(rx_on) begin
                             if(rx_ready) begin
                                 rx_serial_data_internal <= rx_serial_data;
@@ -127,7 +137,7 @@ module uart_top #(
                         else if(tx_on) begin
                             if(tx_ready) begin
                                 enb <= 1'b1;
-                                tx_data_load <= 1'b1;
+                                tx_data_load <= 1'b0;
                                 state <= mem_read;
                             end
                             else begin
@@ -141,8 +151,19 @@ module uart_top #(
                     
                     mem_read: begin
                         enb <= 1'b0;
+                        tx_data_load <= 1'b1;
                         ram_addrb <= ram_addrb + 1'b1;
-                        state <= tx_data;
+                        state <= tx_idle;
+                    end
+                    
+                    tx_idle: begin
+                        if(cntr < 4'b1000) begin
+                            cntr <= cntr + 1'b1;
+                        end
+                        else begin
+                            state <= tx_data;
+                            cntr <= 0;
+                        end
                     end
                     
                     tx_data: begin
@@ -174,7 +195,12 @@ module uart_top #(
                         wea <= 1'b0;
                         ram_addra <= ram_addra + 1'b1;
                         state <= idle;
-                    end 
+//                        ram_addra_last <= ram_addra;
+                    end
+                    
+                    default: begin
+                        state <= idle;
+                    end
                 endcase
             end
         end

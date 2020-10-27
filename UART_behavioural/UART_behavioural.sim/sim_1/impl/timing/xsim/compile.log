@@ -1,5 +1,13 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.sim/sim_1/impl/timing/xsim/uart_rx_ex_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.sim/sim_1/impl/timing/xsim/uart_top_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ff
+INFO: [VRFC 10-311] analyzing module ram_dp__sim_par
+INFO: [VRFC 10-311] analyzing module seven_seg
+INFO: [VRFC 10-311] analyzing module seven_seg_0
+INFO: [VRFC 10-311] analyzing module uart_rx_wrapper
 INFO: [VRFC 10-311] analyzing module uart_rxm_ex
+INFO: [VRFC 10-311] analyzing module uart_top
+INFO: [VRFC 10-311] analyzing module uart_tx_wrapper
+INFO: [VRFC 10-311] analyzing module uart_txm_ex
 INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sim_1/new/uart_rx_ex_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module uart_rx_ex_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sim_1/new/uart_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_top_tb

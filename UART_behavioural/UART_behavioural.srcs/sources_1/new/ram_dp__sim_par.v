@@ -39,10 +39,12 @@ module ram_dp__sim_par #(
     
     reg [DATA_WIDTH-1:0] doutb_internal = {DATA_WIDTH{1'b0}};
     
+    integer i;
+    
     generate
     if(INIT_FILE != "") begin: using_init_file
         initial begin
-            $readmemh(INIT_FILE, ram_dp, 0, RAM_DEPTH-1);
+            $readmemb(INIT_FILE, ram_dp, 0, RAM_DEPTH-1);
         end
     end
     else begin: setting_to_zero
@@ -60,11 +62,13 @@ module ram_dp__sim_par #(
             ram_dp[addra] <= dina;
         end
         if(enb) begin
-            doutb_internal = ram_dp[addrb];
+            doutb_internal <= ram_dp[addrb];
         end
     end
     
     assign doutb = doutb_internal;
+
+//    assign doutb = (enb) ? ram_dp[addrb] : {DATA_WIDTH{1'b0}};
     
     
 //    function integer clogb2;

@@ -1,3 +1,4 @@
 Vivado Simulator 2018.3
 Time resolution is 1 ps
-$finish called at time : 276240 ns : File "/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sim_1/new/uart_rx_ex_tb.v" Line 94
+WARNING: "/tools/Xilinx/Vivado/2018.3/data/verilog/src/unisims/FDSE.v" Line 151: Timing violation in scope /uart_top_tb/uut/tx/tx/tx_serial_data_internal_reg/TChk151_1038 at time 10003392 ps $setuphold (posedge C,negedge S,(0:0:0),(0:0:0),notifier,set_clk_enable_p,set_clk_enable_p,C_dly,S_dly) 
+$finish called at time : 16877200 ns : File "/home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sim_1/new/uart_top_tb.v" Line 220

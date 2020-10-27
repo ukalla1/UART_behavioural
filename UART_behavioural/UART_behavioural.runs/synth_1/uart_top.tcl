@@ -17,6 +17,10 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param xicom.use_bs_reader 1
+set_msg_config -id {Common 17-41} -limit 10000000
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 create_project -in_memory -part xc7a100tcsg324-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -28,6 +32,7 @@ set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property ip_output_repo /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
+read_mem /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/data.mem
 read_verilog -library xil_defaultlib {
   /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ff.v
   /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_dp__sim_par.v
@@ -37,8 +42,6 @@ read_verilog -library xil_defaultlib {
   /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_tx_wrapper.v
   /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_txm_ex.v
   /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_top.v
-  /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_dp_nc-par.v
-  /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_top.v
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

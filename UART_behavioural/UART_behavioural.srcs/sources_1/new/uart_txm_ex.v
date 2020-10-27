@@ -66,8 +66,8 @@ module uart_txm_ex #(
         else begin
             case(state)
                 idle: begin
-                    tx_serial_data_internal <= 1'b1;
-                    tx_shift_reg <= {(DATAWIDTH){1'b1}};
+//                    tx_serial_data_internal <= 1'b1;
+//                    tx_shift_reg <= {(DATAWIDTH){1'b1}};
                     bit_count <= {(BCWIDTH){1'b0}};
                     sample_count <= {(SCWIDTH){1'b0}};
                     if(tx_data_load) begin
@@ -137,6 +137,10 @@ module uart_txm_ex #(
                         ready_internal <= 1'b1;
                         state <= idle;
                     end
+                end
+                
+                default: begin
+                    state <= idle;
                 end
                 
             endcase

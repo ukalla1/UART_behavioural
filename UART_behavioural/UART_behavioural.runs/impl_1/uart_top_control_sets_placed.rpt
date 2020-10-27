@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-| Date         : Wed Oct 21 16:03:41 2020
+| Date         : Mon Oct 26 16:09:53 2020
 | Host         : ukallakuri-Lenovo-YOGA-910-13IKB running 64-bit Ubuntu 20.04.1 LTS
 | Command      : report_control_sets -verbose -file uart_top_control_sets_placed.rpt
 | Design       : uart_top
@@ -24,7 +24,7 @@ Table of Contents
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
 | Number of unique control sets                            |    17 |
-| Unused register locations in slices containing registers |    50 |
+| Unused register locations in slices containing registers |    51 |
 +----------------------------------------------------------+-------+
 
 
@@ -34,11 +34,14 @@ Table of Contents
 +--------+--------------+
 | Fanout | Control Sets |
 +--------+--------------+
-|      1 |            4 |
-|      5 |            3 |
-|      8 |            5 |
-|      9 |            1 |
-|     14 |            2 |
+|      1 |            2 |
+|      3 |            1 |
+|      4 |            1 |
+|      7 |            1 |
+|      8 |            6 |
+|      9 |            2 |
+|     13 |            1 |
+|     14 |            1 |
 |    16+ |            2 |
 +--------+--------------+
 
@@ -49,38 +52,38 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |               6 |            3 |
+| No           | No                    | No                     |              12 |            6 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |              47 |           14 |
-| Yes          | No                    | No                     |              17 |            5 |
+| No           | Yes                   | No                     |              64 |           24 |
+| Yes          | No                    | No                     |               9 |            3 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |              72 |           26 |
+| Yes          | Yes                   | No                     |              88 |           25 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 4. Detailed Control Set Information
 -----------------------------------
 
-+----------------+---------------------------------+------------------+------------------+----------------+
-|  Clock Signal  |          Enable Signal          | Set/Reset Signal | Slice Load Count | Bel Load Count |
-+----------------+---------------------------------+------------------+------------------+----------------+
-|  clk_IBUF_BUFG | rx/rx/flag_err_internal_i_1_n_0 | rst_IBUF         |                1 |              1 |
-|  clk_IBUF_BUFG | rx/rx/rx_serial_data_internal   | rst_IBUF         |                1 |              1 |
-|  clk_IBUF_BUFG |                                 |                  |                1 |              1 |
-|  clk_2         |                                 | rst_IBUF         |                1 |              1 |
-|  clk_IBUF_BUFG | ram_addrb[4]_i_1_n_0            | rst_IBUF         |                1 |              5 |
-|  clk_IBUF_BUFG | ram_addra[4]_i_1_n_0            | rst_IBUF         |                1 |              5 |
-|  clk_2         |                                 |                  |                2 |              5 |
-|  clk_2         | tx/tx/tx_shift_reg_1            | rst_IBUF         |                3 |              8 |
-|  clk_IBUF_BUFG | rx/rx/rx_data                   | rst_IBUF         |                4 |              8 |
-|  clk_IBUF_BUFG | rx/rx/rx_shift_reg_0            | rst_IBUF         |                4 |              8 |
-|  clk_IBUF_BUFG | enb__0                          |                  |                2 |              8 |
-|  clk_2         | tx/tx/tx_reg_2                  | rst_IBUF         |                1 |              8 |
-|  clk_IBUF_BUFG | rx/cnt_reg[18]                  |                  |                3 |              9 |
-|  clk_IBUF_BUFG | rx/rx/sample_count[13]_i_1_n_0  | rst_IBUF         |                5 |             14 |
-|  clk_2         | tx/tx/tx_serial_data_internal   | rst_IBUF         |                5 |             14 |
-|  clk_IBUF_BUFG | wea__0                          |                  |                2 |             16 |
-|  clk_IBUF_BUFG |                                 | rst_IBUF         |               13 |             46 |
-+----------------+---------------------------------+------------------+------------------+----------------+
++----------------+-------------------------------+------------------+------------------+----------------+
+|  Clock Signal  |         Enable Signal         | Set/Reset Signal | Slice Load Count | Bel Load Count |
++----------------+-------------------------------+------------------+------------------+----------------+
+|  clk_IBUF_BUFG | rx/rx/flag_err_internal       | rst_IBUF         |                1 |              1 |
+|  clk_IBUF_BUFG | rx/rx/rx_serial_data_internal | rst_IBUF         |                1 |              1 |
+|  clk_IBUF_BUFG |                               |                  |                3 |              3 |
+|  clk_IBUF_BUFG | cntr                          | rst_IBUF         |                1 |              4 |
+|  clk_IBUF_BUFG | FSM_onehot_state[6]_i_1_n_0   | rst_IBUF         |                1 |              7 |
+|  clk_2         | tx/tx/tx_reg_1                | rst_IBUF         |                2 |              8 |
+|  clk_2         | tx/tx/tx_shift_reg_0          | rst_IBUF         |                1 |              8 |
+|  clk_IBUF_BUFG | ram_addra                     | rst_IBUF         |                2 |              8 |
+|  clk_IBUF_BUFG | ram_addrb                     | rst_IBUF         |                2 |              8 |
+|  clk_IBUF_BUFG | rx/rx/rx_data                 | rst_IBUF         |                2 |              8 |
+|  clk_IBUF_BUFG | rx/rx/rx_shift_reg_0          | rst_IBUF         |                1 |              8 |
+|  clk_IBUF_BUFG | rx/cnt_reg[18]                |                  |                3 |              9 |
+|  clk_2         |                               |                  |                3 |              9 |
+|  clk_2         | tx/tx/sample_count            | rst_IBUF         |                5 |             13 |
+|  clk_IBUF_BUFG | rx/rx/sample_count            | rst_IBUF         |                6 |             14 |
+|  clk_2         |                               | rst_IBUF         |                9 |             18 |
+|  clk_IBUF_BUFG |                               | rst_IBUF         |               15 |             46 |
++----------------+-------------------------------+------------------+------------------+----------------+
 
 
