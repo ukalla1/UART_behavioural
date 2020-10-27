@@ -19,15 +19,9 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
+`include "parameters.vh"
 module uart_top #(
-    parameter DATAWIDTH = 8,
-    parameter BITCOUNTMAX = DATAWIDTH,
-    parameter SAMPLECOUNTMAX_RX = 10417,
-    parameter SAMPLECOUNTMAX_TX = 5209,
-    parameter RAMDEPTH = 256,
-    parameter INIT_FILE = "data.mem",
-    parameter ADDRS_WIDTH = clogb2(RAMDEPTH-1)
+    parameter ADDRS_WIDTH = clogb2(`RAMDEPTH-1)
 )(
     input clk,
     input rst,
@@ -42,7 +36,7 @@ module uart_top #(
     
     wire rx_ready, tx_ready;
     
-    wire [DATAWIDTH-1:0] o_rx_parallel_data, mem_out;
+    wire [`DATAWIDTH-1:0] o_rx_parallel_data, mem_out;
     
     reg rx_serial_data_internal;
     
@@ -57,9 +51,9 @@ module uart_top #(
     localparam idle = 3'b000, rx_data = 3'b001, mem_write = 3'b010, rx_stop = 3'b011, mem_read = 3'b100, tx_idle = 3'b101, tx_data = 3'b110;
     
     uart_rx_wrapper #(
-        .DATAWIDTH(DATAWIDTH),
-        .BITCOUNTMAX(BITCOUNTMAX),
-        .SAMPLECOUNTMAX(SAMPLECOUNTMAX_RX)
+        .DATAWIDTH(`DATAWIDTH),
+        .BITCOUNTMAX(`BITCOUNTMAX),
+        .SAMPLECOUNTMAX(`SAMPLECOUNTMAX_RX)
     )rx(
         .clk(clk),
         .rst(rst),
@@ -72,9 +66,9 @@ module uart_top #(
     );
     
     ram_dp__sim_par #(
-        .DATA_WIDTH(DATAWIDTH),
-        .RAM_DEPTH(RAMDEPTH),
-        .INIT_FILE(INIT_FILE),
+        .DATA_WIDTH(`DATAWIDTH),
+        .RAM_DEPTH(`RAMDEPTH),
+        .INIT_FILE(`INIT_FILE),
         .ADDRS_WIDTH(ADDRS_WIDTH)
     )ram(
         .clk(clk),
@@ -87,9 +81,9 @@ module uart_top #(
     );
         
     uart_tx_wrapper #(
-        .DATAWIDTH(DATAWIDTH),
-        .BITCOUNTMAX(BITCOUNTMAX),
-        .SAMPLECOUNTMAX(SAMPLECOUNTMAX_TX)
+        .DATAWIDTH(`DATAWIDTH),
+        .BITCOUNTMAX(`BITCOUNTMAX),
+        .SAMPLECOUNTMAX(`SAMPLECOUNTMAX_TX)
     )tx(
         .clk(clk),
         .rst(rst),

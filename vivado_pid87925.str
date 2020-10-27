@@ -13591,3 +13591,1002 @@ dismissDialog("Remove Sources"); // aE (cp)
 // TclEventType: DG_GRAPH_STALE
 // TclEventType: FILE_SET_CHANGE
 // Tcl Message: remove_files  /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_top.v 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 323ms to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 511ms to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1031ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1031 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking 713ms to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4193 ms. Increasing delay to 4000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 782ms to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (a Update Status Timer) is taking 450ms to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 613ms to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3640 ms. Increasing delay to 5000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking 912ms to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 7956 ms. Increasing delay to 23868 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 21 ms. Decreasing delay to 2021 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 3,827 MB. GUI used memory: 279 MB. Current time: 10/27/20, 8:46:01 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 3,827 MB. GUI used memory: 279 MB. Current time: 10/27/20, 9:16:01 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 3,827 MB. GUI used memory: 279 MB. Current time: 10/27/20, 9:46:01 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 3,827 MB. GUI used memory: 279 MB. Current time: 10/27/20, 10:16:01 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 3,827 MB. GUI used memory: 279 MB. Current time: 10/27/20, 10:46:02 AM EDT
+// Elapsed time: 10215 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // X (q, cp)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // ac (cp)
+selectMenuItem(PAResourceCommand.PACommandNames_LANGUAGE_TEMPLATES, "Language Templates"); // af (cp)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // X (q, cp)
+// Run Command: PAResourceCommand.PACommandNames_LANGUAGE_TEMPLATES
+// a (cp): Language Templates: addNotify
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog]", 0); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs]", 6); // i (Q, a)
+// Elapsed time: 23 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples]", 9); // i (Q, a)
+// Elapsed time: 10 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Misc]", 21); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Misc]", 21); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, DSP]", 17); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, DSP]", 17); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples]", 9); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules]", 12); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, Misc]", 14); // i (Q, a)
+// [GUI Memory]: 409 MB (+48574kb) [27:44:13]
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, Misc]", 14); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, Misc]", 14); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, Misc, Asynchronous Input Synchronization (Reduces Issues w/ Metastability)]", 15, false); // i (Q, a)
+// Elapsed time: 23 seconds
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, Misc]", 14); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, Misc]", 14); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, Misc]", 14); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, RAM]", 15); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, RAM, BlockRAM]", 16); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, RAM, BlockRAM]", 16); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, RAM]", 15); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs]", 6); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog]", 0); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC]", 3); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints]", 4); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints]", 4, true); // i (Q, a) - Node
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints, Clocks]", 5); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints, Clocks, Clock constraint on input port]", 6, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints, Clocks, Clock constraint on input port]", 6, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints, Clocks, Clock constraint on input port with user-defined name]", 7, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints, Clocks, Clock constraint on input port with user-defined waveform]", 8, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints, Clocks, Generated clock, divided frequency]", 9, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints, Clocks, Generated clock, multiplied frequency]", 10, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints, Clocks, Generated clock, fractional frequency]", 11, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints, Clocks, Asynchronous clock groups]", 12, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints, Clocks, Exclusive clock groups]", 13, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints, Clocks, System jitter]", 14, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints, Clocks, Clock jitter]", 15, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints, Clocks, Clock uncertainty]", 16, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints, Clocks, Board PLL/MMCM feedback loop delay]", 17, false); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints, Input Delay Constraints]", 18); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints, Input Delay Constraints]", 18); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints, Clocks]", 5); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints]", 4); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC]", 3); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog]", 0); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC]", 10); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints]", 11); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Timing Constraints]", 11); // i (Q, a)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,827 MB. GUI used memory: 280 MB. Current time: 10/27/20, 11:16:02 AM EDT
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Physical Constraints]", 12); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Physical Constraints, IO Constraints (7-Series)]", 14); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Physical Constraints, IO Constraints (7-Series)]", 14); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC, Physical Constraints]", 12); // i (Q, a)
+// Elapsed time: 28 seconds
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, XDC]", 10); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM)]", 7); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), XPM]", 9); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), XPM]", 9); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), XPM]", 9); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), XPM]", 9); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), XPM]", 9); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), XPM, XPM_CDC]", 10); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), XPM, XPM_CDC, Bus Synchronizer with Full Handshake (xpm_cdc_handshake)]", 12, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), XPM, XPM_CDC]", 10); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), XPM]", 9); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), 0_Info (Usage Instructions)]", 8, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM)]", 7); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs]", 1); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, User Defined Functions & Tasks]", 5); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, User Defined Functions & Tasks, Calling a Function]", 6, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, User Defined Functions & Tasks, Calling a Task]", 7, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, User Defined Functions & Tasks, Function Declaration]", 8, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, User Defined Functions & Tasks, Task Declaration]", 10, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, User Defined Functions & Tasks, Task Declaration]", 10, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, User Defined Functions & Tasks]", 5); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Operators]", 4); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Operators, Replicate/Concatenate]", 8, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Operators]", 4); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives]", 3); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, Define]", 4); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, Define, `define]", 5, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, Define, `ifdef & `elsif & `else]", 6, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, Define, `ifndef]", 7, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, Define, Info (`define)]", 8, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, `include]", 9, true); // i (Q, a) - Node
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, Define]", 4); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, `include]", 5); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, `include, `include]", 6, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, `include, Info (`include)]", 7, false); // i (Q, a)
+// Elapsed time: 36 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, `include, `include]", 6, false); // i (Q, a)
+// Elapsed time: 13 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, Define]", 4); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, Define, `define]", 5, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, Define, `ifdef & `elsif & `else]", 6, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, Define, `define]", 5, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, Define, `ifdef & `elsif & `else]", 6, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, Define, `define]", 5, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, Define, `ifdef & `elsif & `else]", 6, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, Define, `ifndef]", 7, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, Define, Info (`define)]", 8, false); // i (Q, a)
+// Elapsed time: 37 seconds
+selectCodeEditor("ram_dp__sim_par.v", 513, 418); // cl (w, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, cp) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+// 'h' command handler elapsed time: 15 seconds
+dismissDialog("Add Sources"); // c (cp)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, `include, `include]", 10, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, `include, Info (`include)]", 11, false); // i (Q, a)
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.v", 1); // k (j, cp)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "Verilog Header", 1); // cm (Q, F)
+// Elapsed time: 14 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "parameters"); // Y (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 25 seconds
+dismissDialog("Add Sources"); // c (cp)
+// Tcl Message: close [ open /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/parameters.vh w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/parameters.vh 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, parameters.vh]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, parameters.vh]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ram_dp__sim_par.v", 6); // k (j, cp)
+selectCodeEditor("ram_dp__sim_par.v", 10, 412); // cl (w, cp)
+selectCodeEditor("ram_dp__sim_par.v", 220, 393); // cl (w, cp)
+// Elapsed time: 30 seconds
+selectMenuItem(PAResourceItoN.LanguageTemplatesDialog_COPY, "Copy"); // af (al)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("ram_dp__sim_par.v", 364, 234); // cl (w, cp)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("ram_dp__sim_par.v", 311, 379); // cl (w, cp)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.v", 1); // k (j, cp)
+selectCodeEditor("uart_top.v", 9, 454); // cl (w, cp)
+selectCodeEditor("uart_top.v", 111, 332); // cl (w, cp)
+// Elapsed time: 17 seconds
+selectCodeEditor("uart_top.v", 184, 9); // cl (w, cp)
+// Elapsed time: 35 seconds
+selectCodeEditor("uart_top.v", 634, 483); // cl (w, cp)
+selectCodeEditor("uart_top.v", 347, 469); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'c'); // cl (w, cp)
+selectCodeEditor("uart_top.v", 454, 472); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "parameters.vh", 3); // k (j, cp)
+selectCodeEditor("parameters.vh", 236, 113); // cl (w, cp)
+typeControlKey((HResource) null, "parameters.vh", 'v'); // cl (w, cp)
+selectCodeEditor("parameters.vh", 302, 54); // cl (w, cp)
+selectCodeEditor("parameters.vh", 354, 104); // cl (w, cp)
+selectCodeEditor("parameters.vh", 325, 111); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.v", 1); // k (j, cp)
+selectCodeEditor("uart_top.v", 329, 388); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("uart_top.v", 20, 485); // cl (w, cp)
+// D (cp): Invalid Top Module: addNotify
+// Elapsed time: 12 seconds
+dismissDialog("Invalid Top Module"); // D (cp)
+selectCodeEditor("uart_top.v", 2, 362); // cl (w, cp)
+typeControlKey(null, null, 'z');
+// Elapsed time: 62 seconds
+selectCodeEditor("uart_top.v", 474, 122); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// D (cp): Invalid Top Module: addNotify
+// Elapsed time: 12 seconds
+selectRadioButton(PAResourceEtoH.FloatingTopDialog_SPECIFY_NEW_TOP_MODULE, "Specify a new top module:"); // a (Q, D)
+selectButton(PAResourceEtoH.FloatingTopDialog_SELECT_TOP_MODULE_OF_YOUR_DESIGN, (String) null); // q (ah, D)
+// bx (D):  Analyze source files for top modules : addNotify
+// Q (D): Select Top Module: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (Q)
+dismissDialog("Select Top Module"); // Q (D)
+selectRadioButton(PAResourceEtoH.FloatingTopDialog_IGNORE_AND_CONTINUE_WITH_INVALID_TOP, "Ignore and continue with invalid top module"); // a (Q, D)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (D)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SRC_MGMT_MODE_CHANGE
+// Tcl Message: set_property source_mgmt_mode DisplayOnly [current_project] 
+dismissDialog("Invalid Top Module"); // D (cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 3); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 3); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 2); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 2); // B (D, cp)
+selectCodeEditor("uart_top.v", 220, 18); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "parameters.vh", 3); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.v", 1); // k (j, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectCodeEditor("uart_top.v", 292, 25); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 15 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 3); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 2); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, parameters.vh]", 3, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, parameters.vh]", 3, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, parameters.vh]", 3, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("parameters.vh", 265, 11); // cl (w, cp)
+// Elapsed time: 16 seconds
+selectCodeEditor("parameters.vh", 49, 13); // cl (w, cp)
+selectCodeEditor("parameters.vh", 49, 13, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("parameters.vh", 27, 21); // cl (w, cp)
+selectCodeEditor("parameters.vh", 27, 21, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("parameters.vh", 143, 10); // cl (w, cp)
+selectCodeEditor("parameters.vh", 219, 27); // cl (w, cp)
+selectCodeEditor("parameters.vh", 279, 40); // cl (w, cp)
+selectCodeEditor("parameters.vh", 269, 60); // cl (w, cp)
+selectCodeEditor("parameters.vh", 268, 56); // cl (w, cp)
+selectCodeEditor("parameters.vh", 262, 83); // cl (w, cp)
+selectCodeEditor("parameters.vh", 319, 92); // cl (w, cp)
+selectCodeEditor("parameters.vh", 28, 40); // cl (w, cp)
+selectCodeEditor("parameters.vh", 28, 40, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("parameters.vh", 34, 55); // cl (w, cp)
+selectCodeEditor("parameters.vh", 34, 55, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("parameters.vh", 26, 66); // cl (w, cp)
+selectCodeEditor("parameters.vh", 26, 66, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("parameters.vh", 33, 83); // cl (w, cp)
+selectCodeEditor("parameters.vh", 33, 83, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("parameters.vh", 35, 99); // cl (w, cp)
+selectCodeEditor("parameters.vh", 35, 99, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("parameters.vh", 404, 24); // cl (w, cp)
+selectCodeEditor("parameters.vh", 11, 43); // cl (w, cp)
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.v", 1); // k (j, cp)
+selectCodeEditor("uart_top.v", 193, 18); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 90 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "parameters.vh", 3); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.v", 1); // k (j, cp)
+selectCodeEditor("uart_top.v", 342, 459); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'c'); // cl (w, cp)
+selectCodeEditor("uart_top.v", 311, 439); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "parameters.vh", 3); // k (j, cp)
+selectCodeEditor("parameters.vh", 265, 96); // cl (w, cp)
+typeControlKey((HResource) null, "parameters.vh", 'v'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.v", 1); // k (j, cp)
+selectCodeEditor("uart_top.v", 184, 22); // cl (w, cp)
+selectCodeEditor("uart_top.v", 291, 17); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'c'); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("uart_top.v", 81, 515); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'v'); // cl (w, cp)
+// Elapsed time: 17 seconds
+selectCodeEditor("uart_top.v", 29, 307); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("uart_top.v", 303, 332); // cl (w, cp)
+selectCodeEditor("uart_top.v", 305, 325); // cl (w, cp)
+// Elapsed time: 171 seconds
+selectCodeEditor("uart_top.v", 115, 65); // cl (w, cp)
+selectCodeEditor("uart_top.v", 11, 199); // cl (w, cp)
+selectCodeEditor("uart_top.v", 46, 208); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "parameters.vh", 3); // k (j, cp)
+selectCodeEditor("parameters.vh", 434, 235); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 266 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.v", 1); // k (j, cp)
+selectCodeEditor("uart_top.v", 206, 396); // cl (w, cp)
+selectCodeEditor("uart_top.v", 166, 229); // cl (w, cp)
+// Elapsed time: 13 seconds
+selectCodeEditor("uart_top.v", 266, 234); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'v'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "parameters.vh", 3); // k (j, cp)
+selectCodeEditor("parameters.vh", 211, 4); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("parameters.vh", 311, 12); // cl (w, cp)
+// Elapsed time: 15 seconds
+selectCodeEditor("parameters.vh", 90, 162); // cl (w, cp)
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, cp)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+selectCodeEditor("parameters.vh", 343, 7); // cl (w, cp)
+selectCodeEditor("parameters.vh", 105, 9); // cl (w, cp)
+selectCodeEditor("parameters.vh", 105, 9, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "parameters.vh", 'v'); // cl (w, cp)
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "parameters.vh", 'v'); // cl (w, cp)
+selectCodeEditor("parameters.vh", 78, 23); // cl (w, cp)
+typeControlKey((HResource) null, "parameters.vh", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "parameters.vh", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "parameters.vh", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "parameters.vh", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "parameters.vh", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "parameters.vh", 'c'); // cl (w, cp)
+selectCodeEditor("parameters.vh", 51, 48); // cl (w, cp)
+selectCodeEditor("parameters.vh", 51, 48, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "parameters.vh", 'v'); // cl (w, cp)
+selectCodeEditor("parameters.vh", 49, 69); // cl (w, cp)
+selectCodeEditor("parameters.vh", 49, 69, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "parameters.vh", 'v'); // cl (w, cp)
+selectCodeEditor("parameters.vh", 59, 86); // cl (w, cp)
+selectCodeEditor("parameters.vh", 59, 86, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "parameters.vh", 'v'); // cl (w, cp)
+selectCodeEditor("parameters.vh", 59, 99); // cl (w, cp)
+selectCodeEditor("parameters.vh", 59, 99, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "parameters.vh", 'v'); // cl (w, cp)
+selectCodeEditor("parameters.vh", 56, 113); // cl (w, cp)
+selectCodeEditor("parameters.vh", 56, 113, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "parameters.vh", 'v'); // cl (w, cp)
+selectCodeEditor("parameters.vh", 62, 127); // cl (w, cp)
+selectCodeEditor("parameters.vh", 62, 127, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "parameters.vh", 'v'); // cl (w, cp)
+selectCodeEditor("parameters.vh", 62, 137); // cl (w, cp)
+selectCodeEditor("parameters.vh", 62, 137, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "parameters.vh", 'v'); // cl (w, cp)
+selectCodeEditor("parameters.vh", 195, 59); // cl (w, cp)
+// Elapsed time: 31 seconds
+selectCodeEditor("parameters.vh", 383, 134); // cl (w, cp)
+selectCodeEditor("parameters.vh", 415, 136); // cl (w, cp)
+// Elapsed time: 63 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, `timescale]", 12); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, `timescale]", 12); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, Define, Info (`define)]", 8, false); // i (Q, a)
+selectCodeEditor("parameters.vh", 150, 188); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.v", 1); // k (j, cp)
+selectCodeEditor("uart_top.v", 319, 442); // cl (w, cp)
+// Elapsed time: 17 seconds
+typeControlKey(null, null, 'c'); // c (c, a)
+typeControlKey(null, null, 'c'); // c (c, a)
+typeControlKey(null, null, 'c'); // c (c, a)
+typeControlKey(null, null, 'c'); // c (c, a)
+selectCodeEditor("uart_top.v", 341, 453); // cl (w, cp)
+selectCodeEditor("uart_top.v", 475, 456); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'v'); // cl (w, cp)
+selectCodeEditor("uart_top.v", 149, 476); // cl (w, cp)
+selectCodeEditor("uart_top.v", 149, 476, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "uart_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'c'); // cl (w, cp)
+typeControlKey((HResource) null, "uart_top.v", 'c'); // cl (w, cp)
+selectCodeEditor("uart_top.v", 124, 463); // cl (w, cp)
+selectCodeEditor("uart_top.v", 124, 463, false, false, false, false, true); // cl (w, cp) - Double Click
+typeControlKey((HResource) null, "uart_top.v", 'v'); // cl (w, cp)
+selectCodeEditor("uart_top.v", 189, 476); // cl (w, cp)
+// Elapsed time: 30 seconds
+selectCodeEditor("uart_top.v", 117, 246); // cl (w, cp)
+// Elapsed time: 31 seconds
+selectCodeEditor("uart_top.v", 385, 225); // cl (w, cp)
+selectCodeEditor("uart_top.v", 356, 204); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data.mem", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "parameters.vh", 3); // k (j, cp)
+selectCodeEditor("parameters.vh", 308, 142); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.v", 1); // k (j, cp)
+selectCodeEditor("uart_top.v", 369, 217); // cl (w, cp)
+selectCodeEditor("uart_top.v", 37, 111); // cl (w, cp)
+selectCodeEditor("uart_top.v", 185, 82); // cl (w, cp)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "parameters.vh", 3); // k (j, cp)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.v", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "parameters.vh", 3); // k (j, cp)
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.v", 1); // k (j, cp)
+selectCodeEditor("uart_top.v", 249, 218); // cl (w, cp)
+selectCodeEditor("uart_top.v", 70, 366); // cl (w, cp)
+selectCodeEditor("uart_top.v", 133, 503); // cl (w, cp)
+// Elapsed time: 37 seconds
+selectCodeEditor("uart_top.v", 377, 527); // cl (w, cp)
+selectCodeEditor("uart_top.v", 350, 492); // cl (w, cp)
+selectCodeEditor("uart_top.v", 139, 503); // cl (w, cp)
+selectCodeEditor("uart_top.v", 134, 519); // cl (w, cp)
+selectCodeEditor("uart_top.v", 132, 537); // cl (w, cp)
+selectCodeEditor("uart_top.v", 153, 291); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,034 MB. GUI used memory: 281 MB. Current time: 10/27/20, 11:46:02 AM EDT
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "parameters.vh", 3); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.v", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "parameters.vh", 3); // k (j, cp)
+selectCodeEditor("parameters.vh", 191, 69); // cl (w, cp)
+selectCodeEditor("parameters.vh", 191, 69, false, false, false, false, true); // cl (w, cp) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.v", 1); // k (j, cp)
+selectCodeEditor("uart_top.v", 373, 275); // cl (w, cp)
+selectCodeEditor("uart_top.v", 357, 290); // cl (w, cp)
+selectCodeEditor("uart_top.v", 152, 290); // cl (w, cp)
+selectCodeEditor("uart_top.v", 133, 456); // cl (w, cp)
+// Elapsed time: 18 seconds
+selectCodeEditor("uart_top.v", 312, 337); // cl (w, cp)
+// Elapsed time: 18 seconds
+selectCodeEditor("uart_top.v", 441, 201); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "parameters.vh", 3); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "data.mem", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.v", 1); // k (j, cp)
+// Elapsed time: 13 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, `include, `include]", 10, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives, `include, Info (`include)]", 11, false); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Operators]", 13); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Operators]", 13); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Operators]", 13); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Operators, Arithmetic]", 14, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Operators, Arithmetic]", 14, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Operators, Bitwise]", 15, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Operators, Logical]", 16, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Operators, Replicate/Concatenate]", 17, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Operators, Shift]", 18, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Operators, Unary Reduction]", 19, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Operators, Shift]", 18, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Operators, Unary Reduction]", 19, false); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, User Defined Functions & Tasks]", 20); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, User Defined Functions & Tasks, Calling a Function]", 21, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Compiler directives]", 3); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, Operators]", 4); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, User Defined Functions & Tasks, Calling a Task]", 7, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, User Defined Functions & Tasks, Function Declaration]", 8, false); // i (Q, a)
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, User Defined Functions & Tasks, Info (Functions and Tasks)]", 9, false); // i (Q, a)
+// Elapsed time: 17 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, User Defined Functions & Tasks, Task Declaration]", 10, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs, User Defined Functions & Tasks]", 5); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Common Constructs]", 1); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation]", 2); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7]", 3); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7, DSP48]", 4); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7, DSP48, Add / Multiply Accumulate (ADDMACC_MACRO)]", 5, false); // i (Q, a)
+// Elapsed time: 15 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7, DSP48, Add / Subtract (ADDSUB_MACRO)]", 6, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7, DSP48, Counter w/ Terminal Count (COUNTER_TC_MACRO)]", 7, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7, DSP48, Equality Comparator (EQ_COMPARE_MACRO)]", 8, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7, DSP48, Loadable Counter (COUNTER_LOAD_MACRO)]", 9, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7, DSP48, Multiplier (MULT_MACRO)]", 10, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7, DSP48, Multiply Accumulate (MACC_MACRO)]", 11, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7, DSP48]", 4); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7, RAM]", 5); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7, RAM, Dual Clock FIFO (FIFO_DUALCLOCK_MACRO)]", 6, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7, RAM, Simple Dual Port RAM (BRAM_SDP_MACRO)]", 7, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7, RAM, Single Port RAM (BRAM_SINGLE_MACRO)]", 8, false); // i (Q, a)
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7, RAM, Synchronous FIFO (FIFO_SYNC_MACRO)]", 9, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7, RAM, True Dual Port RAM (BRAM_TDP_MACRO)]", 10, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7, RAM]", 5); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Artix-7]", 3); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Kintex-7]", 4); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Kintex-7]", 4); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Virtex-7]", 5); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Virtex-7]", 5); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Virtex-7]", 5); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Virtex-7, RAM]", 7); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Virtex-7, RAM]", 7); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation, Virtex-7]", 5); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Macro Instantiation]", 2); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation]", 3); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7]", 4); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Advanced]", 5); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Advanced, Gigabit Transceiver Buffer (IBUFDS_GTE2)]", 6, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Advanced, XADC Simulation File]", 7, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Advanced, Xilinx Analog-to-Digital Converter (XADC)]", 8, false); // i (Q, a)
+// Elapsed time: 22 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Virtex-7]", 21); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Virtex-7, Advanced]", 22); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Virtex-7, Advanced]", 22); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Virtex-7]", 21); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Advanced, XADC Simulation File]", 7, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Advanced, Gigabit Transceiver Buffer (IBUFDS_GTE2)]", 6, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Advanced, XADC Simulation File]", 7, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Advanced]", 5); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Arithmetic Functions]", 6); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Arithmetic Functions, 48-bit Multi-Functional Arithmetic Block (DSP48E1)]", 7, false); // i (Q, a)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,066 MB. GUI used memory: 281 MB. Current time: 10/27/20, 12:16:02 PM EDT
+// Elapsed time: 1597 seconds
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Arithmetic Functions]", 6); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Clock Components]", 7); // i (Q, a)
+// Elapsed time: 11 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Clock Components, Clock Buffers]", 8); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Clock Components, Clock Buffers, Global Clock Buffer with Clock Enable and Output State 1 (BUFGCE_1)]", 9, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Clock Components, Clock Buffers, HROW Clock Buffer (BUFH)]", 12, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Clock Components, Clock Buffers, Multi-Region Clock Buffer (BUFMR)]", 15, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Clock Components, Clock Buffers, Multi-Region Clock Buffer with Clock Enable (BUFMRCE)]", 16, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Clock Components, Clock Buffers, Regional Clock Buffer (BUFR)]", 17, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Clock Components, Clock Buffers]", 8); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Clock Components, Clock MUXes]", 9); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Clock Components, Clock Buffers]", 8); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Clock Components, Clock Buffers]", 8); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Clock Components, Clock MUXes]", 9); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Clock Components, MMCM / PLL]", 10); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Clock Components, MMCM / PLL, Advanced Mixed Mode Clock Manager (MMCME2_ADV)]", 11, false); // i (Q, a)
+// Elapsed time: 11 seconds
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Clock Components, MMCM / PLL]", 10); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Clock Components]", 7); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Config/BSCAN Components]", 8); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Config/BSCAN Components]", 8); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, I/O Components]", 9); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, I/O Components, Bi-directional Buffers]", 10); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, I/O Components, Bi-directional Buffers, Differential Buffer (IOBUFDS)]", 11, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, I/O Components, Bi-directional Buffers]", 10); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, I/O Components, DDR Registers]", 11); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, I/O Components, DDR Registers, Input DDR Register (IDDR)]", 13, false); // i (Q, a)
+// Elapsed time: 10 seconds
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, I/O Components, DDR Registers]", 11); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, I/O Components]", 9); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, RAM/ROM]", 10); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, RAM/ROM, BlockRAM]", 11); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, RAM/ROM, BlockRAM, 18Kb Block RAM Memory (RAMB18E1)]", 12, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, RAM/ROM, BlockRAM]", 11); // i (Q, a)
+// Elapsed time: 22 seconds
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, RAM/ROM]", 10); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Registers & Latches]", 11); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Registers & Latches, Single Data Rate]", 13); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Registers & Latches, Single Data Rate, Posedge D-FF w/ Async Clear and CE (FDCE)]", 14, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Registers & Latches, Single Data Rate]", 13); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Registers & Latches]", 11); // i (Q, a)
+// Elapsed time: 10 seconds
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7]", 4); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation]", 3); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, IP Integrator HDL]", 4); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, IP Integrator HDL, Advanced Interfaces]", 5); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, IP Integrator HDL, Advanced Interfaces, Management Data IO interface]", 38, false); // i (Q, a)
+// Elapsed time: 11 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, IP Integrator HDL, Advanced Interfaces, sdi]", 54); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, IP Integrator HDL, Advanced Interfaces, sdi, Sdi_native]", 55, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, IP Integrator HDL, Advanced Interfaces, sdi]", 54); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, IP Integrator HDL, Advanced Interfaces]", 5); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, IP Integrator HDL, AXI Interfaces]", 6); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, IP Integrator HDL, AXI Interfaces, Axi Memory Mapped]", 7, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, IP Integrator HDL, AXI Interfaces]", 6); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, IP Integrator HDL]", 4); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs]", 5); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs]", 5); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs]", 5); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Clock Stimulus]", 6); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Clock Stimulus, 50% Duty Cycle]", 7); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Clock Stimulus, 50% Duty Cycle, Using Always]", 8, false); // i (Q, a)
+// Elapsed time: 13 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Clock Stimulus, 50% Duty Cycle, Using forever]", 9, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Clock Stimulus, 50% Duty Cycle]", 7); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Clock Stimulus, Differential, Non-50% Duty Cycle]", 8); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Clock Stimulus, Differential, Non-50% Duty Cycle, Using Always]", 9, false); // i (Q, a)
+// Elapsed time: 26 seconds
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Clock Stimulus, Differential, Non-50% Duty Cycle]", 8); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Clock Stimulus]", 6); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Configuration]", 7); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Configuration, Cell Library Clause]", 8, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Configuration, Default Library Clause]", 9, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Configuration, Info (Configuration)]", 10, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Configuration, Info (Configuration)]", 10, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Configuration]", 7); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Delays]", 8); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Delays, Finite Delay]", 9, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Delays, Wait for Any Signal Transition]", 10, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Delays, Wait for Any Signal Transition]", 10, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Delays, Wait for Negative Signal Transition]", 11, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Delays, Wait for Positive Signal Transition]", 12, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Delays]", 8); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Loops]", 9); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Loops, Decrementing for Loop]", 10, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Loops, Disable Loop]", 11, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Loops, forever Loop]", 12, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Loops]", 9); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Mnemonics]", 10); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, Mnemonics]", 10); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, System Tasks & Functions]", 14); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, System Tasks & Functions, File I/O]", 15); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, System Tasks & Functions, File I/O]", 15); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, System Tasks & Functions, Stop Simulation]", 20); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, System Tasks & Functions, Stop Simulation, Pause Simulation ($stop)]", 21, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, System Tasks & Functions, Stop Simulation, Quit Simulation ($finish)]", 22, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, System Tasks & Functions, Stop Simulation]", 20); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs, System Tasks & Functions]", 14); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Simulation Constructs]", 5); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs]", 6); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules]", 12); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM)]", 17); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), 0_Info (Usage Instructions)]", 18, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs]", 6); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), XPM]", 9); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), XPM, XPM_CDC]", 10); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), XPM, XPM_CDC, Asynchronous Reset Synchronizer (xpm_cdc_async_rst)]", 11, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), XPM, XPM_CDC]", 10); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), XPM, XPM_FIFO]", 11); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), XPM, XPM_FIFO, Synchronous FIFO (xpm_fifo_sync)]", 16, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), XPM, XPM_FIFO]", 11); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM), XPM]", 9); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM)]", 7); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs]", 6); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Continuous Assignment]", 11, false); // i (Q, a)
+// Elapsed time: 11 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Always]", 7); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Always]", 7); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes]", 8); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, Clock]", 9); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, Clock]", 9); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, I/O]", 11); // i (Q, a)
+// Elapsed time: 10 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, I/O, Buffer Type]", 12); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, I/O, Buffer Type]", 12); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, I/O]", 11); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, Location / Packing]", 12); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, Location / Packing]", 12); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, Location / Packing]", 12); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, Location / Packing]", 12); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, Misc]", 13); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, Misc]", 13); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, Synthesis]", 14); // i (Q, a)
+// Elapsed time: 10 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, Synthesis, RAM Inference Styles]", 23); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, Synthesis, RAM Inference Styles, BlockRAM Implementation (RAM_STYLE=block)]", 24, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, Synthesis, RAM Inference Styles]", 23); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, Synthesis, Use DSP (USE_DSP)]", 24, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes, Synthesis]", 14); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Attributes]", 8); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports]", 14); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, ANSI-style]", 15, false); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Registered]", 16); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Registered, Output]", 17); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Registered, Output, 1-bit]", 18, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Registered, Output, 64-bit]", 25, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Registered, Output]", 17); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Registered]", 16); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Simple Declaration]", 17, true); // i (Q, a) - Node
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Simple Declaration]", 17); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Simple Declaration, Bidirectional (inout)]", 18); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Simple Declaration, Bidirectional (inout), 1-bit]", 19, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Simple Declaration, Bidirectional (inout), 64-bit]", 26, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Simple Declaration, Bidirectional (inout)]", 18); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Simple Declaration, Input]", 19); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Simple Declaration, Input, 64-bit]", 27, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Simple Declaration, Input]", 19); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Simple Declaration, Output]", 20); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Simple Declaration, Output, 64-bit]", 28, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports, Simple Declaration, Output]", 20); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Ports]", 14); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Signal, Constant & Variable Declarations]", 15); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Signal, Constant & Variable Declarations, Parameter]", 16); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Signal, Constant & Variable Declarations, Parameter, Local Parameter]", 18, true); // i (Q, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Signal, Constant & Variable Declarations, Parameter, Info (Parameter)]", 17, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Signal, Constant & Variable Declarations, Parameter, Local Parameter]", 18, true); // i (Q, a) - Node
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Signal, Constant & Variable Declarations, Parameter, Local Parameter]", 18); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Signal, Constant & Variable Declarations, Parameter, Local Parameter, Signed, ranged local parameter]", 19, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Signal, Constant & Variable Declarations, Parameter, Local Parameter]", 18); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Signal, Constant & Variable Declarations, Parameter]", 16); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Signal, Constant & Variable Declarations, wire]", 18); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Signal, Constant & Variable Declarations, wire]", 18); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Signal, Constant & Variable Declarations]", 15); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, System Tasks & Functions]", 16); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, System Tasks & Functions, Read Memory File]", 17, true); // i (Q, a) - Node
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, System Tasks & Functions, Read Memory File]", 17); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, System Tasks & Functions, Read Memory File, Binary Data ($readmemb)]", 18, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, System Tasks & Functions, Read Memory File, Hex Data ($readmemh)]", 19, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, System Tasks & Functions, Read Memory File]", 17); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, System Tasks & Functions, Signed Conversion ($signed)]", 18, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, System Tasks & Functions, Unsigned Conversion ($unsigned)]", 19, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, System Tasks & Functions]", 16); // i (Q, a)
+// Elapsed time: 12 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules]", 12); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, Misc]", 14); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, Misc, Asynchronous Input Synchronization (Reduces Issues w/ Metastability)]", 15, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, Misc]", 14); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, RAM]", 15); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, RAM]", 15); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, RAM]", 15); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, RAM, BlockRAM]", 16); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, RAM, BlockRAM, Single Port]", 18); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, RAM, BlockRAM, Single Port]", 18); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, RAM, BlockRAM]", 16); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules, RAM]", 15); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Example Modules]", 12); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Conditional]", 10); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Conditional]", 10); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples]", 9); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Tristate Buffers]", 27, true); // i (Q, a) - Node
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Tristate Buffers]", 27); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Tristate Buffers]", 27); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines]", 26); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Mealy]", 28); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Mealy, Binary (parameter)]", 29); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Mealy, Binary (parameter), Fast]", 30); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Mealy, Binary (parameter), Fast, 4 States]", 31, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Mealy, Binary (parameter), Fast]", 30); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Mealy, Binary (parameter)]", 29); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Mealy, One-Hot (parameter)]", 30); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Mealy, One-Hot (parameter), Fast]", 31); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Mealy, One-Hot (parameter), Fast, 4 States]", 32, false); // i (Q, a)
+// Elapsed time: 11 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Moore]", 36); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Moore, One-Hot (parameter)]", 38); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Moore, One-Hot (parameter), Fast]", 39); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Moore, One-Hot (parameter), Fast, 4 States]", 40, false); // i (Q, a)
+// Elapsed time: 24 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Mealy, One-Hot (parameter), Fast, 4 States]", 32, false); // i (Q, a)
+// Elapsed time: 30 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Moore, One-Hot (parameter), Fast, 4 States]", 40, false); // i (Q, a)
+// Elapsed time: 47 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Moore, One-Hot (parameter), Safe]", 43); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Moore, One-Hot (parameter), Safe, 4 States]", 44, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Moore, One-Hot (parameter), Fast, 4 States]", 40, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Moore, One-Hot (parameter), Safe, 4 States]", 44, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Moore, One-Hot (parameter), Safe]", 43); // i (Q, a)
+// Elapsed time: 16 seconds
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines]", 26); // i (Q, a)
+// Elapsed time: 120 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, RAM]", 23); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, RAM, BlockRAM]", 24); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Simple Dual Port]", 25); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Simple Dual Port, 1 Clock]", 26, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Simple Dual Port]", 25); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, RAM, BlockRAM]", 24); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, RAM]", 23); // i (Q, a)
+// Elapsed time: 18 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Accumulators]", 10); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Accumulators, Async Reset & CE]", 11, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Accumulators, Sync Reset & CE]", 12, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Accumulators]", 10); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Arithmetic]", 11); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Arithmetic, Divider]", 13); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Arithmetic, Divider, Divide by 2]", 14, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Arithmetic, Divider, Divide by 4]", 15, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Arithmetic, Divider, Divide by 8]", 16, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Arithmetic, Divider, Divide by 16]", 17, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Arithmetic, Divider]", 13); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Arithmetic, Multiplier]", 14); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Arithmetic, Multiplier, 18x18 Synchronous Multiplier]", 15, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Arithmetic, Multiplier, Combinatorial Multiplier]", 16, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Arithmetic, Multiplier, 18x18 Synchronous Multiplier]", 15, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Arithmetic, Multiplier]", 14); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, Arithmetic]", 11); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples]", 9); // i (Q, a)
+// Elapsed time: 11 seconds
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs]", 6); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug]", 11); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine]", 12); // i (Q, a)
+// Elapsed time: 15 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, Trigger State Machine Examples]", 15); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, Trigger State Machine Examples, Simple Trigger Immediate State Machine]", 16, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, Trigger State Machine Examples, Trigger on 4th Rising Edge of Debug Probe]", 17, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, Trigger State Machine Examples]", 15); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, States]", 16); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, States, State declaration]", 17, false); // i (Q, a)
+// Elapsed time: 11 seconds
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, States]", 16); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, Conditional Branching]", 17); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, Conditional Branching, One-way Conditional Branching]", 18, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, Conditional Branching, Two-way Conditional Branching (if-else)]", 19, false); // i (Q, a)
+// Elapsed time: 10 seconds
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs]", 6); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples]", 9); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines]", 26); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines, Mealy, One-Hot (parameter), Fast, 4 States]", 32, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples, State-Machines]", 26); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs, Coding Examples]", 9); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, Trigger State Machine Language Grammar]", 24, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, Info]", 23, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine]", 22); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine]", 22); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, States]", 26, true); // i (Q, a) - Node
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, States]", 26); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, States, State declaration]", 27, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, States]", 26); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, Conditional Branching, One-way Conditional Branching]", 28, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, Conditional Branching, Two-way Conditional Branching (if-else)]", 29, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, Conditional Branching, Three-way Conditional Branching (if-elseif-else)]", 30, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, Conditional Branching]", 27); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, Conditions]", 28); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, Conditions, Info (Debug Probe Conditions)]", 29, false); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, Conditions, Single-Scalar-Probe Condition]", 31, false); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug, Trigger State Machine, Conditions]", 28); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Debug]", 21); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM)]", 17); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Xilinx Parameterized Macros (XPM)]", 17); // i (Q, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Synthesis Constructs]", 6); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation]", 3); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7]", 4); // i (Q, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Advanced]", 5); // i (Q, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Advanced, Xilinx Analog-to-Digital Converter (XADC)]", 8, false); // i (Q, a)
+// Elapsed time: 95 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Advanced, XADC Simulation File]", 7, false); // i (Q, a)
+// Elapsed time: 141 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, Verilog, Device Primitive Instantiation, Artix-7, Advanced, Xilinx Analog-to-Digital Converter (XADC)]", 8, false); // i (Q, a)
+// Elapsed time: 268 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // z (L, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 20, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// A (cp): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cp)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cp): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (cp):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cp)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Tue Oct 27 12:44:38 2020] Launched synth_1... Run output will be captured here: /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.runs/synth_1/runme.log [Tue Oct 27 12:44:38 2020] Launched impl_1... Run output will be captured here: /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (cp)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, parameters.vh]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, parameters.vh]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "uart_top.v", 1); // k (j, cp)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// TclEventType: RUN_COMPLETED
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1); // B (D, cp)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 18 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, parameters.vh]", 2, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, parameters.vh]", 2, false, false, false, false, false, true); // B (D, cp) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 4,066 MB. GUI used memory: 283 MB. Current time: 10/27/20, 12:46:02 PM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1041 ms.
+// TclEventType: RUN_COMPLETED
+// ah (cp): Implementation Completed: addNotify
+// Elapsed time: 47 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Implementation Completed"); // ah (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design, Report Utilization]", 29, false); // u (Q, cp)
+// bx (cp):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 4,090 MB. GUI used memory: 283 MB. Current time: 10/27/20, 12:46:28 PM EDT
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  1260 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.3 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.46 . Memory (MB): peak = 8681.543 ; gain = 0.000 ; free physical = 972 ; free virtual = 2141 
+// Tcl Message: Restored from archive | CPU: 0.160000 secs | Memory: 0.369530 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.47 . Memory (MB): peak = 8681.543 ; gain = 0.000 ; free physical = 972 ; free virtual = 2141 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8681.543 ; gain = 0.000 ; free physical = 972 ; free virtual = 2141 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: DRC_ADDED
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 8764.953 ; gain = 107.395 ; free physical = 924 ; free virtual = 2110 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// Run Command: PAResourceCommand.PACommandNames_RESOURCE_UTILIZATION
+// a (cp): Report Utilization: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+dismissDialog("Report Utilization"); // a (cp)
+// TclEventType: UTILIZATION_RESULT_GENERATED
+// bx (cp):  Report Utilization : addNotify
+// Tcl Message: report_utilization -name utilization_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 4,323 MB. GUI used memory: 328 MB. Current time: 10/27/20, 12:46:36 PM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1781 ms.
+dismissDialog("Report Utilization"); // bx (cp)
+selectTab((HResource) null, (HResource) null, "Power", 5); // aI (aF, cp)
+selectButton((HResource) null, "BRAM"); // h (Q, cp)
+// Elapsed time: 26 seconds
+collapseTreeTable(PAResourceOtoP.PowerItemTreeTablePanel_POWER_ITEM_TREE_TABLE, "0.002859921 ; uart_top ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 0); // d (Q, cp)
+selectTree(PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, "[Report Contents, Utilization Details, Hierarchical]", 4, false); // h (Q, cp)
+selectTree(PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, "[Report Contents, Utilization Details, Clocks]", 5, false); // h (Q, cp)
+selectTree(PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, "[Report Contents, Utilization Details, Signals, Data]", 7, false); // h (Q, cp)
+selectTree(PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, "[Report Contents, Utilization Details, Signals, Clock Enable]", 8, false); // h (Q, cp)
+selectTree(PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, "[Report Contents, Utilization Details, Signals, Set/Reset]", 9, false); // h (Q, cp)
+selectTree(PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, "[Report Contents, Utilization Details, Logic]", 10, false); // h (Q, cp)
+selectTree(PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, "[Report Contents, Utilization Details, BRAM]", 11, false); // h (Q, cp)
+selectTree(PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, "[Report Contents, Utilization Details, Logic]", 10, false); // h (Q, cp)
+// Elapsed time: 10 seconds
+selectTree(PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, "[Report Contents, Utilization Details, BRAM]", 11, false); // h (Q, cp)
+expandTreeTable(PAResourceOtoP.PowerItemTreeTablePanel_POWER_ITEM_TREE_TABLE, "0.002859921 ; uart_top ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 0); // d (Q, cp)
+selectTree(PAResourceOtoP.PowerResultTab_REPORT_NAVIGATION_TREE, "[Report Contents, Utilization Details, I/O]", 12, false); // h (Q, cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design, Schematic]", 33, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, cp)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// Elapsed time: 21 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // B (f, cp)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aA, cp)
+closeTask("Implementation", "Implemented Design", "DesignTask.RESULTS_ANALYSIS");
+// A (cp): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (cp):  Close : addNotify
+dismissDialog("Confirm Close"); // A (cp)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,263 MB. GUI used memory: 307 MB. Current time: 10/27/20, 12:48:17 PM EDT
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 4,263 MB. GUI used memory: 308 MB. Current time: 10/27/20, 12:48:17 PM EDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1802 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Close"); // bx (cp)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aA, cp)
+closeTask("Project Manager", "Project Manager", "DesignTask.PROJECT_MANAGER");
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// A (cp): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (cp):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+dismissDialog("Close Project"); // A (cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,297 MB. GUI used memory: 181 MB. Current time: 10/27/20, 12:48:21 PM EDT
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // bx (cp)

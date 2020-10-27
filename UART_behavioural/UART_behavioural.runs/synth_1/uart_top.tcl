@@ -32,10 +32,12 @@ set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property ip_output_repo /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
+read_verilog /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/parameters.vh
 read_mem /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/data.mem
 read_verilog -library xil_defaultlib {
   /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ff.v
   /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_dp__sim_par.v
+  /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/ram_dp_nc-par.v
   /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/seven_seg.v
   /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_rx_wrapper.v
   /home/ukallakuri/hardware_design/designs/uart/UART_behavioural/UART_behavioural.srcs/sources_1/new/uart_rxm_ex.v
